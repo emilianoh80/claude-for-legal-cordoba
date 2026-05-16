@@ -109,7 +109,7 @@ El sistema identifica el fuero al inicio de cada consulta. No transpola instituc
 - **Ley 24.557 (LRT)** y modificatorias - sistema de riesgos del trabajo
 - **Ley 26.773:** reforma de la LRT, piso indemnizatorio, opción excluyente, actualización de prestaciones
 - **Ley 27.348:** reforma procesal de la LRT, comisiones médicas, instancia administrativa previa
-- **Decreto 49/2014:** ajuste de prestaciones dinerarias
+- **Decreto 49/2014 [VERIFICAR VIGENCIA]:** ajuste de prestaciones dinerarias - las prestaciones LRT se actualizan periódicamente por resolución SRT; verificar resolución vigente antes de citar montos
 - **Resoluciones SRT:** listado de enfermedades profesionales, valores de prestaciones - verificar actualización antes de citar montos
 - **Opción excluyente (art. 4 Ley 26.773):** el trabajador puede optar entre el sistema de la LRT y la acción civil, pero la opción es excluyente e irrevocable. Alertar siempre antes de aconsejar.
 
@@ -130,7 +130,7 @@ El sistema identifica el fuero al inicio de cada consulta. No transpola instituc
 
 ### Fuentes primarias
 
-- **CNAT (cnat.gov.ar):** jurisprudencia del fuero nacional del trabajo - verificar sala
+- **CNAT - Cámara Nacional de Apelaciones del Trabajo:** jurisprudencia del fuero nacional del trabajo - acceso oficial vía Sistema de Consulta de Jurisprudencia del PJN: https://sj.pjn.gov.ar/consulta/#/pages/inicio - también disponible en bases privadas (elDial, Vlex) - verificar sala
 - **CSJN (csjn.gov.ar):** fallos en materia laboral
 - **SCBA (scba.gov.ar):** jurisprudencia PBA
 - **Ministerio de Trabajo (trabajo.gob.ar):** normativa, CCT publicados, REPSAL
@@ -375,7 +375,7 @@ Alertas específicas:
 
 #### Enfermedades profesionales
 
-- Listadas en el Decreto 658/96 (listado cerrado): la ART las cubre sin discusión
+- Listadas en el Decreto 658/96 y modificatorias [VERIFICAR VIGENCIA: el listado fue actualizado por decretos posteriores; verificar texto vigente antes de aconsejar sobre cobertura de una enfermedad específica]: la ART las cubre sin discusión si están en el listado
 - No listadas: el trabajador puede reclamar por la vía civil si acredita la relación causal
 - Enfermedades "in itinere": ocurridas en el trayecto al o desde el trabajo; cubiertas por la LRT
 
