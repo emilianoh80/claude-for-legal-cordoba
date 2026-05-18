@@ -38,7 +38,7 @@ conector no estaba disponible.
 | 2 - Psflores (PJN/CABA) | Jurisprudencia fueros nacionales | Acceder a pjn.gov.ar o buenosaires.gob.ar/jusbaires y pegar el fallo en la sesión |
 | 3 - guidobonomini | Análisis semántico / glosario | Operar con el glosario del CLAUDE.md argentino; la calidad terminológica puede bajar |
 | 4 - Tesauro SAIJ | Vocabulario jurídico | Usar terminología estándar del CCCN y LCT directamente |
-| TSJ Córdoba | Jurisprudencia Córdoba | Acceder a jurisprudencia.justiciacordoba.gob.ar y pegar el fallo en la sesión |
+| 6 - jurisprudencia-cordoba | Jurisprudencia Córdoba (Koha + PDF) | Acceder a jurisprudencia.justiciacordoba.gob.ar y pegar el fallo en la sesión |
 
 Cuando se usa el fallback manual (pegar texto en sesión), indicar siempre
 al inicio del texto pegado: fuente, fecha de consulta, y URL de origen.
@@ -159,25 +159,56 @@ Limitaciones:
 
 ---
 
-### 6. TSJ Córdoba - Jurisprudencia provincial
+### 6. jurisprudencia-cordoba ⭐ Conector principal de este fork
 
-**Estado:** conector MCP de fuente abierta no disponible. Acceso directo disponible. FalloBot (conector 5) puede cubrir jurisprudencia de CSJN y SAIJ, pero la cobertura específica del TSJ Córdoba y las cámaras provinciales debe verificarse.
+**Repositorio:** https://github.com/emilianoh80/mcp-jurisprudencia-cordoba
+**Fuente:** OPAC Koha del Poder Judicial de Córdoba · jurisprudencia.justiciacordoba.gob.ar
+**Función:** Búsqueda de jurisprudencia cordobesa en texto libre o por campos específicos, extracción de metadatos MARC estructurados, descarga y lectura de PDFs de fallos. Acceso directo a TSJ Córdoba, Cámaras de Apelaciones, Juzgados de primera instancia.
+**Tipo:** servidor MCP local (Node.js). Requiere instalación y Claude Desktop o Claude Code con MCP configurado. No funciona en Claude.ai Projects.
+**Requisitos:** Node.js 20+, npm, acceso a internet.
+**Estado:** activo — mantenido en este fork.
 
-El Tribunal Superior de Justicia de la Provincia de Córdoba (TSJ Córdoba) tiene
-jurisprudencia relevante en materia laboral, civil, contencioso administrativa
-y penal provincial.
+**Herramientas expuestas:**
 
-**Alternativa directa:**
-Acceder directamente a https://jurisprudencia.justiciacordoba.gob.ar (sala correspondiente) y pegar el texto
-del fallo en la sesión para que el sistema lo procese. Indicar siempre:
-sala, fecha, carátula y número de expediente.
+| Herramienta | Qué hace |
+|---|---|
+| `buscar_jurisprudencia` | Búsqueda por texto libre, carátula, tribunal, número, temas, frase; filtros por tipo de item y rango de fecha |
+| `obtener_metadata_fallo` | Metadatos MARC estructurados: carátula, tribunal, número de resolución, fecha, temas, firmantes, URL del PDF |
+| `leer_fallo_pdf` | Descarga y extrae texto del PDF de un fallo |
+| `investigar_jurisprudencia` | Flujo completo: busca, rankea candidatos por relevancia y lee los PDFs más importantes |
 
-También disponible en el portal del Poder Judicial de Córdoba (justiciacordoba.gob.ar)
-para sentencias de cámaras y primera instancia.
+**Tipos de item disponibles:** sentencia, auto, acuerdo, acta, decreto, dictamen, resolución, veredicto.
 
-**Para quien quiera desarrollar el conector:**
-La contribución de un conector MCP para jurisprudencia del TSJ Córdoba
-y las Cámaras cordobesas sería de alto impacto para práctica en esta provincia.
+**Instalación en Claude Desktop:**
+```bash
+git clone https://github.com/emilianoh80/mcp-jurisprudencia-cordoba.git
+cd mcp-jurisprudencia-cordoba
+npm run setup
+```
+Cerrar y reabrir Claude Desktop.
+
+**Instalación en Claude Code** — agregar al archivo `.mcp.json` del proyecto:
+```json
+{
+  "mcpServers": {
+    "jurisprudencia-cordoba": {
+      "command": "node",
+      "args": ["/RUTA/ABSOLUTA/AL/REPO/src/server.js"]
+    }
+  }
+}
+```
+
+**Cómo activarlo en una sesión:**
+```
+Usa el conector jurisprudencia-cordoba. Busca jurisprudencia cordobesa sobre [tema].
+Lee los PDFs de los 2 resultados más relevantes y responde con doctrina, tribunal,
+fecha, número de resolución, URL del registro y URL del PDF.
+```
+
+**Nota sobre protección anti-bot:** el sitio usa Anubis/Theke. El conector maneja cookies y espera el desafío automáticamente. Para consultas puntuales funciona sin intervención manual.
+
+**Fallback si no responde:** acceder directamente a https://jurisprudencia.justiciacordoba.gob.ar y pegar el texto del fallo en la sesión, indicando sala, fecha, carátula y número de expediente.
 
 ---
 
@@ -189,7 +220,8 @@ y las Cámaras cordobesas sería de alto impacto para práctica en esta provinci
 | Verificar texto de una norma provincial Córdoba | Sin conector MCP | SAIJ / portal Legislatura Córdoba directo |
 | Buscar jurisprudencia CSJN | 5 (FalloBot, plan Pro) | sj.csjn.gov.ar directo |
 | Buscar jurisprudencia CABA / fueros nacionales | 2 (Psflores) | PJN directo |
-| Buscar jurisprudencia TSJ Córdoba y cámaras | Sin conector MCP | jurisprudencia.justiciacordoba.gob.ar / justiciacordoba.gob.ar |
+| **Buscar jurisprudencia Córdoba (TSJ + Cámaras + 1ª instancia)** | **6 (jurisprudencia-cordoba) ⭐** | jurisprudencia.justiciacordoba.gob.ar directo |
+| Leer PDF de un fallo cordobés | **6 (jurisprudencia-cordoba) ⭐** | Descargar PDF manualmente y pegar texto |
 | Buscar jurisprudencia multifuente simultánea | 5 (FalloBot, plan Pro) | Fuentes por separado |
 | Análisis semántico / terminología | 3 (guidobonomini) | - |
 | Mejorar búsquedas jurisprudenciales | 4 (Tesauro SAIJ) | SAIJ directo |
@@ -198,16 +230,23 @@ y las Cámaras cordobesas sería de alto impacto para práctica en esta provinci
 
 Sí, pero con criterio. Las combinaciones útiles son:
 
-- **1 + 2:** para trabajo donde se necesita tanto el texto de la norma como
-  jurisprudencia que la interpreta. El flujo recomendado es: primero verificar
-  el texto con 1, luego buscar jurisprudencia con 2 usando la terminología
-  correcta del texto oficial.
+- **1 + 6:** combinación principal para práctica cordobesa. El 1 verifica el texto
+  de la norma nacional; el 6 busca jurisprudencia del Poder Judicial de Córdoba
+  que la interpreta. Flujo: verificar norma con 1, buscar jurisprudencia cordobesa
+  con 6 usando el artículo confirmado.
 
-- **4 + 2:** el Tesauro (4) mejora la calidad de las búsquedas de jurisprudencia (2).
-  Activar el 4 para normalizar los términos antes de la búsqueda.
+- **4 + 6:** el Tesauro (4) mejora la calidad de las búsquedas en Córdoba (6).
+  Activar el 4 para normalizar los términos antes de buscar con el 6.
 
-- **1 + 3:** el 3 analiza el contrato con glosario argentino; el 1 verifica
-  las normas que el 3 cita. El 3 no reemplaza al 1 porque no accede a texto oficial.
+- **6 + investigar_jurisprudencia:** para investigación más profunda, usar la
+  herramienta `investigar_jurisprudencia` del conector 6: busca, rankea por
+  relevancia y lee PDFs en una sola operación.
+
+- **1 + 2:** para trabajo con fueros nacionales radicados en Córdoba (fuero federal,
+  laboral nacional). El 1 verifica la norma; el 2 busca jurisprudencia del PJN.
+
+- **1 + 3:** el 3 analiza contratos con glosario argentino; el 1 verifica las
+  normas que el 3 cita.
 
 **¿Qué pasa si dos conectores dan resultados contradictorios?**
 
@@ -236,8 +275,8 @@ hay discrepancia con cualquier conector.
 | SAIJ | saij.gob.ar | Jurisprudencia, doctrina, legislación provincial (incluye normas de Córdoba) |
 | PJN | pjn.gov.ar | Acordadas y jurisprudencia federal |
 | CNACAF | cnacaf.gov.ar | Jurisprudencia contencioso administrativo federal y alzada tributaria |
-| TSJ Córdoba | jurisprudencia.justiciacordoba.gob.ar | Jurisprudencia TSJ Córdoba - fuente primaria provincial |
-| Poder Judicial Córdoba | justiciacordoba.gob.ar | Jurisprudencia cámaras y juzgados de Córdoba |
+| TSJ Córdoba + Cámaras + 1ª instancia | jurisprudencia.justiciacordoba.gob.ar | Jurisprudencia provincial Córdoba — cubierta por conector 6 (jurisprudencia-cordoba). Acceso directo como fallback. |
+| Poder Judicial Córdoba (portal general) | justiciacordoba.gob.ar | Portal institucional Córdoba — expedientes, información de juzgados |
 | Poder Judicial CABA | buenosaires.gob.ar/jusbaires | Jurisprudencia fuero local CABA |
 | PTN | ptn.gov.ar | Dictámenes de la Procuración del Tesoro de la Nación - responsabilidad del Estado y empleo público |
 | AAIP | argentina.gob.ar/aaip | Disposiciones de datos personales |

@@ -102,12 +102,31 @@ Instalar como plugin y ejecutar `/argentina:setup` en la terminal.
 
 ---
 
+## Conector MCP de jurisprudencia cordobesa
+
+**Repo:** https://github.com/emilianoh80/mcp-jurisprudencia-cordoba
+**Fuente:** OPAC Koha · jurisprudencia.justiciacordoba.gob.ar
+**Estado:** activo y funcionando en el notebook del autor.
+
+Herramientas: `buscar_jurisprudencia`, `obtener_metadata_fallo`, `leer_fallo_pdf`, `investigar_jurisprudencia`
+
+**Instalación rápida (Claude Desktop):**
+```bash
+git clone https://github.com/emilianoh80/mcp-jurisprudencia-cordoba.git
+cd mcp-jurisprudencia-cordoba
+npm run setup
+```
+Cerrar y reabrir Claude Desktop.
+
+**Nota:** funciona con Claude Desktop y Claude Code. No funciona en Claude.ai Projects.
+
+---
+
 ## Próximos pasos sugeridos
 
-1. Confirmar los datos locales de la tabla de pendientes
-2. Probar con consultas reales de cada área para detectar errores de contenido
-3. Agregar jurisprudencia del TSJ Córdoba relevante en los perfiles de área
-4. Considerar agregar ejemplos locales (ej: liquidaciones con CCTs cordobeses frecuentes)
+1. Confirmar los datos locales de la tabla de pendientes (laboral, penal, familia, tributario)
+2. Probar con consultas reales usando el conector `jurisprudencia-cordoba`
+3. Agregar ejemplos locales (CCTs cordobeses frecuentes, liquidaciones típicas del fuero laboral Cba)
 
 ---
 

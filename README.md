@@ -169,18 +169,18 @@ Conectores de la comunidad que apuntan directamente a las fuentes oficiales arge
 | 2 | [Psflores/Legal-MCP-Server-](https://github.com/Psflores/Legal-MCP-Server-) | PJN / CABA | Jurisprudencia fueros nacionales | Gratuito |
 | 3 | [guidobonomini/argentina-law-mcp-server](https://github.com/guidobonomini/argentina-law-mcp-server) | Praxis local | Análisis semántico, glosario judicial | Gratuito |
 | 4 | [datos-justicia-argentina/Tesauro-Saij](https://github.com/datos-justicia-argentina/Tesauro-Saij-de-Derecho-Argentino) | SAIJ | Vocabulario controlado para búsqueda jurídica | Gratuito |
-| 5 | `https://api.fallobot.com/mcp` | CSJN · SAIJ · JUBA · SCBA | Búsqueda multifuente simultánea en lenguaje natural; enlaza al fallo original en la fuente oficial | Plan Pro (fallobot.com) |
-| 6 | SCBA / JUBA | Jurisprudencia PBA | Sin conector MCP de fuente abierta; cubierto por FalloBot (5). Ver instrucciones de acceso directo en `fuentes.md` | — |
+| 5 | `https://api.fallobot.com/mcp` | CSJN · SAIJ · JUBA | Búsqueda multifuente simultánea en lenguaje natural | Plan Pro (fallobot.com) |
+| **6** ⭐ | [emilianoh80/mcp-jurisprudencia-cordoba](https://github.com/emilianoh80/mcp-jurisprudencia-cordoba) | **OPAC Koha · Poder Judicial de Córdoba** | **Búsqueda, metadatos MARC y lectura de PDFs de jurisprudencia cordobesa (TSJ + Cámaras + 1ª instancia)** | Gratuito · Node.js 20+ |
 
 ### Tabla de decisión rápida
 
 | Necesidad | Conector recomendado | Fallback manual |
 |---|---|---|
 | Texto de norma nacional | 1 (Ansvar) | infoleg.gob.ar |
-| Texto de norma provincial PBA | Sin conector MCP | normas.gba.gob.ar |
+| **Jurisprudencia Córdoba (TSJ + Cámaras + 1ª instancia)** | **6 (jurisprudencia-cordoba) ⭐** | jurisprudencia.justiciacordoba.gob.ar |
+| **Leer PDF de un fallo cordobés** | **6 (jurisprudencia-cordoba) ⭐** | Descargar PDF y pegar texto |
 | Jurisprudencia CSJN | 5 (FalloBot, plan Pro) | sj.csjn.gov.ar |
 | Jurisprudencia CABA / fueros nacionales | 2 (Psflores) | pjn.gov.ar · jusbaires |
-| Jurisprudencia PBA (SCBA y cámaras) | 5 (FalloBot, plan Pro) | juba.scba.gov.ar |
 | Búsqueda multifuente simultánea | 5 (FalloBot, plan Pro) | Fuentes por separado |
 | Análisis semántico / terminología | 3 (guidobonomini) | Glosario del CLAUDE.md |
 | Mejora de búsquedas jurisprudenciales | 4 (Tesauro SAIJ) | saij.gob.ar |
@@ -192,17 +192,16 @@ Acceso directo por el abogado para verificación manual. Son la fuente de verdad
 | Fuente | URL | Uso principal |
 |---|---|---|
 | InfoLEG | infoleg.gob.ar | Texto oficial de normas nacionales |
-| normas.gba.gob.ar | normas.gba.gob.ar | Leyes, decretos, códigos y resoluciones provinciales PBA (sin API pública; acceso por búsqueda o URL directa) |
-| SAIJ | saij.gob.ar | Jurisprudencia, doctrina, legislación provincial |
+| SAIJ | saij.gob.ar | Jurisprudencia, doctrina, legislación provincial (incluye normas de Córdoba) |
 | PJN | pjn.gov.ar | Acordadas y jurisprudencia federal |
 | CNACAF | cnacaf.gov.ar | Jurisprudencia contencioso administrativo federal y alzada tributaria |
-| SCBA | scba.gov.ar | Jurisprudencia PBA - fuente primaria bonaerense |
-| JUBA | juba.scba.gov.ar | Consulta de jurisprudencia PBA (SCBA + cámaras + primera instancia desde 2025) |
+| Poder Judicial Córdoba | jurisprudencia.justiciacordoba.gob.ar | Jurisprudencia Córdoba — cubierta por conector 6; acceso directo como fallback |
 | Poder Judicial CABA | buenosaires.gob.ar/jusbaires | Jurisprudencia fuero local CABA |
 | PTN | ptn.gov.ar | Dictámenes - responsabilidad del Estado y empleo público |
 | AAIP | argentina.gob.ar/aaip | Disposiciones de datos personales |
 | IGJ | igj.gob.ar | Resoluciones societarias CABA |
-| DPPJ | gba.gob.ar/dppj | Resoluciones societarias PBA |
+| IPJ Córdoba | justiciacordoba.gob.ar | Resoluciones societarias Córdoba |
+| DGR / ARCO Córdoba | rentas.cba.gov.ar | Normativa tributaria provincial Córdoba |
 | TFN | tfnacional.gov.ar | Jurisprudencia tributaria |
 | BCRA | bcra.gov.ar | Normativa cambiaria y financiera |
 

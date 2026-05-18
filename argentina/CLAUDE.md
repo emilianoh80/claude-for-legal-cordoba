@@ -273,8 +273,7 @@ Esta excepción no aplica a jurisprudencia.
 - InfoLEG (infoleg.gob.ar): texto oficial de normas nacionales
 - SAIJ (saij.gob.ar): jurisprudencia, doctrina, legislación provincial
 - PJN (pjn.gov.ar): acordadas y jurisprudencia federal
-- TSJ Córdoba (jurisprudencia.justiciacordoba.gob.ar): jurisprudencia provincial de Córdoba
-- Poder Judicial de Córdoba (justiciacordoba.gob.ar): sentencias de cámaras y juzgados
+- TSJ Córdoba + Cámaras: conector MCP `jurisprudencia-cordoba` (ver fuentes.md). Fallback: jurisprudencia.justiciacordoba.gob.ar
 - AAIP (argentina.gob.ar/aaip): disposiciones de datos personales
 
 En caso de discrepancia entre cualquier conector MCP y una fuente primaria oficial,
