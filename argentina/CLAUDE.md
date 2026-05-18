@@ -137,7 +137,7 @@ Perfil específico: ver `argentina/laboral-CLAUDE.md`
 ### Societario
 
 - LGS (Ley 19.550) [VERIFICAR VIGENCIA] y modificatorias
-- Normativa IGJ (CABA) / IGPJ Córdoba (Inspección General de Personas Jurídicas de Córdoba) según jurisdicción de inscripción
+- Normativa IGJ (CABA) / IPJ Córdoba (Inspección de Personas Jurídicas de Córdoba) según jurisdicción de inscripción
 - CNV para sociedades que hacen oferta pública
 
 Perfil específico: ver `argentina/societario-CLAUDE.md`

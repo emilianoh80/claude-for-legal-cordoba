@@ -90,7 +90,7 @@ Ejemplos:
 [VERIFICAR MONTO ACTUALIZADO: prestación LRT - resolución SRT vigente]
 [VERIFICAR MONTO ACTUALIZADO: umbral de punibilidad tributaria - Ley 27.430 art. 1]
 [VERIFICAR MONTO ACTUALIZADO: monto mínimo recurso ante TFN]
-[VERIFICAR MONTO ACTUALIZADO: capital mínimo IGJ/IGPJ Córdoba - resolución vigente]
+[VERIFICAR MONTO ACTUALIZADO: capital mínimo IGJ/IPJ Córdoba - resolución vigente]
 ```
 
 **Nunca:** `[VERIFICAR MONTO]`, `[VERIFICAR MONTO VIGENTE]`, `[VERIFICAR MONTO Y RG VIGENTE]` (todas reemplazadas por esta forma canónica).
@@ -131,7 +131,7 @@ Ejemplos:
 
 ### A7 · VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE
 
-**Uso:** requisitos de inscripción, formularios, plazos y documentación ante IGJ, IGPJ Córdoba u otros registros.
+**Uso:** requisitos de inscripción, formularios, plazos y documentación ante IGJ, IPJ Córdoba u otros registros.
 
 **Sintaxis:**
 ```
@@ -141,7 +141,7 @@ Ejemplos:
 Ejemplos:
 ```
 [VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: IGJ - requisitos de constitución de SAS]
-[VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: IGPJ Córdoba - renovación de autoridades]
+[VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: IPJ Córdoba - renovación de autoridades]
 ```
 
 ---
@@ -415,7 +415,7 @@ y los reemplaza por la forma canónica. Usar para actualizar archivos existentes
 | `[VERIFICAR FÓRMULA VIGENTE]` | `[VERIFICAR CRITERIO DEL FUERO: fórmula de cuantificación - sala actuante]` |
 | `[VERIFICAR CCT APLICABLE]` (sin detalle) | `[VERIFICAR CCT APLICABLE: actividad del empleador - dato que falta]` |
 | `[VERIFICAR CCT Y TOPE VIGENTE]` | `[VERIFICAR CCT APLICABLE: ...]` + `[VERIFICAR MONTO ACTUALIZADO: tope art. 245 - CCT]` |
-| `[VERIFICAR RESOLUCIÓN IGJ/DPPJ VIGENTE: ...]` | `[VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: IGJ/IGPJ Córdoba - materia]` |
+| `[VERIFICAR RESOLUCIÓN IGJ/DPPJ VIGENTE: ...]` | `[VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: IGJ/IPJ Córdoba - materia]` |
 | `[VERIFICAR UMBRAL CNDC VIGENTE: ...]` | `[VERIFICAR MONTO ACTUALIZADO: umbral de notificación CNDC - ley vigente]` |
 | `[VACÍO DOCUMENTAL: ...]` | `[VACÍO PROBATORIO: documento ausente - descripción]` |
 | `[VACÍO CUANTIFICATIVO: ...]` | `[VACÍO PROBATORIO: criterio de cuantificación pendiente - descripción]` |

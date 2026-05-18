@@ -6,7 +6,7 @@ Fork del repositorio original de Dr. Cristian Aboitiz ([@abogadoaboitiz](https:/
 El material está construido sobre derecho argentino: CCCN, LCT, LDC, LGS, CPCCN/CPCC Córdoba (Ley 8465),
 y normas especiales. Los perfiles de área están adaptados para la organización judicial de Córdoba:
 TSJ Córdoba, Cámaras del Trabajo (Ley 7987), Cámaras Contencioso Administrativas (Ley 7182),
-IGPJ Córdoba y DGR/ARCO Córdoba.
+IPJ Córdoba y DGR/ARCO Córdoba.
 
 No requiere ningún repositorio externo para funcionar; puede usarse de forma
 autónoma desde Claude.ai Projects o Claude Code.
@@ -51,7 +51,7 @@ argentina/
 - Ley 25.326 y disposiciones AAIP para privacidad y datos personales
 - CPCCN para fueros nacionales y federales / CPCC Córdoba (Ley 8465) para fuero provincial
 - LDC (Ley 24.240) para contratos de consumo
-- LGS para societario (IGPJ Córdoba como organismo de contralor)
+- LGS para societario (IPJ Córdoba como organismo de contralor)
 - Ley 7182 para procedimiento contencioso administrativo de Córdoba
 
 **Reemplaza la lógica de common law en tres áreas críticas:**
@@ -115,7 +115,7 @@ Los perfiles disponibles:
 | `civil-CLAUDE.md` | Derecho civil (CCCN) | `ejemplos-civil.md` | Tasas de interés, fórmulas de daños por fuero |
 | `penal-CLAUDE.md` | Derecho penal | - | Umbrales penales, código procesal vigente |
 | `familia-CLAUDE.md` | Derecho de familia | - | Cuotas alimentarias, régimen de alquileres |
-| `societario-CLAUDE.md` | Societario y M&A | `ejemplos-societario.md` | Resoluciones IGPJ Córdoba/IGJ, capital mínimo |
+| `societario-CLAUDE.md` | Societario y M&A | `ejemplos-societario.md` | Resoluciones IPJ Córdoba/IGJ, capital mínimo |
 | `tributario-CLAUDE.md` | Derecho tributario | - | Alícuotas, MNI, umbrales de punibilidad |
 | `concursos-CLAUDE.md` | Concursos y quiebras (LCQ) | - | Tasas post-concursales, reformas LCQ |
 | `contratos-CLAUDE.md` | Revisión y redacción de contratos | `red-flags-contratos.md` | Régimen cambiario, locaciones, intertemporalidad |

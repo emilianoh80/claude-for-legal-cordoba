@@ -170,7 +170,7 @@ Impacto: el sistema activa el módulo de análisis estratégico correspondiente 
 
 ### Bloque 3 - Configuración societaria
 
-Opciones: IGPJ Córdoba / IGJ (CABA) / ambas / otra provincia.
+Opciones: IPJ Córdoba / IGJ (CABA) / ambas / otra provincia.
 
 Impacto: el sistema aplica la normativa registral correcta en due diligence y constitución
 de sociedades.

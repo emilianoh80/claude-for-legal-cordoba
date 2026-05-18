@@ -242,7 +242,7 @@ hay discrepancia con cualquier conector.
 | PTN | ptn.gov.ar | Dictámenes de la Procuración del Tesoro de la Nación - responsabilidad del Estado y empleo público |
 | AAIP | argentina.gob.ar/aaip | Disposiciones de datos personales |
 | IGJ | igj.gob.ar | Resoluciones societarias CABA |
-| IGPJ Córdoba | justiciacordoba.gob.ar (Ministerio de Justicia Córdoba) | Resoluciones societarias Córdoba |
+| IPJ Córdoba | justiciacordoba.gob.ar (Ministerio de Justicia Córdoba) | Resoluciones societarias Córdoba |
 | CNV | cnv.gov.ar | Normas y resoluciones mercado de capitales |
 | BCRA | bcra.gov.ar | Normativa cambiaria y financiera |
 | COMARB | comarb.gov.ar | Convenio Multilateral - Ingresos Brutos |

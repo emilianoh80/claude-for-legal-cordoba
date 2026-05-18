@@ -30,7 +30,7 @@ El sistema mapea cada pregunta de la entrevista a una variable de este template:
 | `[FUERO_ADMINISTRATIVO]` | P5-bis | El sistema pregunta fuero administrativo en cada sesión |
 | `[AREAS_ADMINISTRATIVO]` | P6-bis | El sistema opera sin prioridad de módulo administrativo |
 | `[ROL_ADMINISTRATIVO]` | P7-bis | El sistema activa módulo actor por defecto |
-| `[JURISDICCION_INSCRIPCION]` | P8 | El sistema pregunta IGPJ Córdoba/IGJ en cada sesión |
+| `[JURISDICCION_INSCRIPCION]` | P8 | El sistema pregunta IPJ Córdoba/IGJ en cada sesión |
 | `[OPERACIONES_SOCIETARIAS]` | P9 | El sistema opera sin prioridad de módulo societario |
 | `[TRIBUTOS_FRECUENTES]` | P10 | El sistema opera sin prioridad de módulo tributario |
 | `[CODIGO_PROCESAL_CIVIL]` | P11 | El sistema pregunta código procesal en cada sesión |
