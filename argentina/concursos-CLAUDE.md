@@ -42,11 +42,11 @@ No aplica doctrinas de common law concursal (Chapter 11, automatic stay en senti
 - **Alzada:** Cámara Nacional de Apelaciones en lo Comercial (CNACOM)
 - Competencia concursal: juez del domicilio del deudor (art. 3 LCQ); en caso de pluralidad de establecimientos, el del establecimiento principal
 
-### PBA
+### Córdoba
 
-- **Código procesal:** CPCCBA con las especificidades de la LCQ
-- **Juzgados:** Juzgados Civiles y Comerciales por departamento judicial
-- **Alzada:** Cámara de Apelación en lo Civil y Comercial por departamento judicial / SCBA
+- **Código procesal:** CPCC Córdoba (Ley 8465) con las especificidades de la LCQ
+- **Juzgados:** Juzgados de Primera Instancia en lo Civil y Comercial por circunscripción judicial
+- **Alzada:** Cámara de Apelaciones en lo Civil y Comercial de Córdoba por circunscripción / TSJ Córdoba - Sala Civil y Comercial
 
 ### Regla general
 
@@ -103,7 +103,7 @@ salvataje y acuerdos preventivos extrajudiciales.
 
 - **CNACOM - Cámara Nacional de Apelaciones en lo Comercial:** jurisprudencia comercial concursal - acceso vía PJN (pjn.gov.ar) - verificar sala
 - **CSJN (csjn.gov.ar):** fallos en materia concursal
-- **SCBA (scba.gov.ar):** jurisprudencia PBA
+- **TSJ Córdoba - Sala Civil y Comercial (tsj.jus.cba.gov.ar):** jurisprudencia concursal provincial de Córdoba
 - **Infoleg (infoleg.gob.ar):** texto oficial de normas
 
 ---

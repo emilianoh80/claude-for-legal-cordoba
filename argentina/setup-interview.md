@@ -46,7 +46,7 @@ Impacto: aparece en el encabezado de escritos y en el cierre de informes.
 
 **P2. Matrícula y colegio**
 
-Ejemplo: `CPACF T° XX F° XX` / `CALZ T° XX F° XX`
+Ejemplo: `CAC T° XX F° XX` (Colegio de Abogados de Córdoba) / `CPACF T° XX F° XX` (si actuás en fueros nacionales)
 
 Impacto: el sistema incluye la matrícula en escritos donde corresponde. Si no querés que
 aparezca en los borradores, indicá "no incluir en escritos".
@@ -58,9 +58,8 @@ aparezca en los borradores, indicá "no incluir en escritos".
 Indicar la jurisdicción donde tramitan la mayoría de las causas.
 
 Opciones orientativas:
+- Córdoba - indicar circunscripción judicial (1ª a 10ª; 1ª = Ciudad de Córdoba)
 - CABA (fueros nacionales)
-- PBA - indicar departamento judicial
-- Otra provincia - indicar cuál
 - Multijurisdiccional
 
 Impacto: determina el código procesal que el sistema aplica por defecto sin preguntar
@@ -92,10 +91,10 @@ Responder solo si laboral figura entre las áreas de práctica.
 
 **P5. Fuero laboral habitual**
 
-Opciones: fuero nacional del trabajo (CABA) / fuero laboral PBA - [departamento judicial] / ambos / otro.
+Opciones: fuero laboral Córdoba - [circunscripción] / fuero nacional del trabajo (CABA) / ambos / otro.
 
-Impacto: el sistema aplica el código procesal correcto (Ley 18.345 vs. Ley 11.653)
-y verifica el SECLO solo cuando corresponde al fuero nacional.
+Impacto: el sistema aplica el código procesal correcto (Ley 7987 para Córdoba / Ley 18.345 para fuero nacional)
+y verifica el SECLO solo cuando corresponde al fuero nacional. En Córdoba el SECLO no aplica.
 
 ---
 
@@ -136,9 +135,9 @@ Responder solo si derecho administrativo figura entre las áreas de práctica.
 
 **P5-bis. Fuero administrativo habitual**
 
-Opciones: contencioso administrativo federal (CABA) / CCAyT CABA / contencioso administrativo PBA - [departamento judicial] / combinación de los anteriores.
+Opciones: contencioso administrativo Córdoba (Ley 7182) / contencioso administrativo federal (CABA) / combinación de los anteriores.
 
-Impacto: el sistema aplica el código y los plazos del fuero indicado sin preguntar en cada sesión. El plazo de caducidad para accionar varía entre fueros (90 días hábiles judiciales en el federal, plazos distintos en CCAyT y PBA). Sin este dato, el sistema pregunta el fuero en cada consulta administrativa.
+Impacto: el sistema aplica el código y los plazos del fuero indicado sin preguntar en cada sesión. El plazo de caducidad para accionar varía entre fueros (90 días hábiles judiciales en el federal; verificar Ley 7182 para Córdoba). Sin este dato, el sistema pregunta el fuero en cada consulta administrativa.
 
 ---
 
@@ -171,7 +170,7 @@ Impacto: el sistema activa el módulo de análisis estratégico correspondiente 
 
 ### Bloque 3 - Configuración societaria
 
-Opciones: IGJ (CABA) / DPPJ (PBA) / ambas / otra provincia.
+Opciones: IGPJ Córdoba / IGJ (CABA) / ambas / otra provincia.
 
 Impacto: el sistema aplica la normativa registral correcta en due diligence y constitución
 de sociedades.
@@ -202,7 +201,7 @@ Responder solo si tributario figura entre las áreas de práctica.
 Ejemplo:
 ```
 - IVA y Ganancias ante AFIP
-- Ingresos brutos CABA (AGIP)
+- Ingresos brutos Córdoba (DGR / ARCO)
 - Litigio ante el TFN
 ```
 
@@ -217,7 +216,7 @@ los plazos del fuero correcto.
 
 **P11. Código procesal por defecto para causas civiles y comerciales**
 
-Opciones: CPCCN (fueros nacionales) / CPCCBA / ambos (indicar cuál es principal).
+Opciones: CPCC Córdoba (Ley 8465) / CPCCN (fueros nacionales) / ambos (indicar cuál es principal).
 
 Impacto: el sistema no equipara automáticamente plazos e institutos entre códigos.
 Este dato evita preguntas repetitivas sobre el fuero en cada sesión.
@@ -317,4 +316,4 @@ en Claude Code para hacer solo las preguntas cuyas respuestas cambiaron.
 ---
 
 *Última actualización: mayo 2026*
-*Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
+*Fork Córdoba — basado en el trabajo de Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*

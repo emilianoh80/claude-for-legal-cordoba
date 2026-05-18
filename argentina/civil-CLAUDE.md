@@ -9,9 +9,9 @@
 ## Configuración inicial - completar antes de usar
 
 **FUERO_HABITUAL:**
-Indicar el fuero donde tramitan habitualmente tus causas civiles. Opciones: "fuero nacional civil (CABA)", "fuero nacional comercial (CABA)", "fuero local CABA (unificado)", "fuero civil y comercial PBA - [departamento judicial]", o combinación.
+Indicar el fuero donde tramitan habitualmente tus causas civiles. Opciones: "fuero civil y comercial Córdoba - [circunscripción]", "fuero nacional civil (CABA)", "fuero nacional comercial (CABA)", o combinación.
 
-Ejemplo: `FUERO_HABITUAL: Fuero nacional civil y comercial (CABA)`
+Ejemplo: `FUERO_HABITUAL: Fuero civil y comercial Córdoba - 1ª circunscripción (Capital)`
 
 **AREAS_PRACTICA:**
 Indicar las áreas de mayor volumen dentro de civil patrimonial (daños y perjuicios, contratos, accidentes de tránsito, responsabilidad profesional, locaciones, etc.). El sistema prioriza la lógica de análisis correspondiente.
@@ -54,12 +54,13 @@ No aplica doctrinas de common law de torts (duty of care anglosajón, punitive d
 - **Alzada:** Cámara de Apelaciones en lo Civil, Comercial y de Familia CABA
 - Regla operativa: verificar si la causa tramita ante fuero nacional o local según fecha de inicio, materia y si el demandado es el GCBA
 
-### PBA
+### Córdoba
 
-- **Código:** CPCCBA (Ley 7425 y modificatorias)
-- **Juzgados:** Juzgados Civiles y Comerciales por departamento judicial
-- **Alzada:** Cámara de Apelación en lo Civil y Comercial por departamento judicial
-- Regla operativa: verificar competencia territorial (lugar del hecho, domicilio del demandado, lugar de cumplimiento del contrato)
+- **Código:** CPCC Córdoba (Ley 8465 y modificatorias)
+- **Juzgados:** Juzgados de Primera Instancia en lo Civil y Comercial por circunscripción judicial
+- **Alzada:** Cámara de Apelaciones en lo Civil y Comercial de Córdoba por circunscripción
+- **Mediación prejudicial:** Ley 8858 (Mediación Prejudicial Obligatoria de Córdoba) - suspende la prescripción durante la mediación. Requisito previo a la demanda en causas civiles y comerciales. Verificar si aplica antes de demandar. [VERIFICAR VIGENCIA: Ley 8858 Córdoba - materias incluidas y excluidas]
+- Regla operativa: verificar competencia territorial (lugar del hecho, domicilio del demandado, lugar de cumplimiento del contrato). No transpolar artículos del CPCCN ni del CPCCBA: la Ley 8465 tiene numeración y régimen propio.
 
 ### Regla general
 
@@ -129,9 +130,9 @@ de la LDC. Verificar si fue modificado antes de asesorar sobre el régimen vigen
 ### Fuentes primarias
 
 - **CSJN (csjn.gov.ar):** fallos en materia de daños, contratos y responsabilidad civil
-- **CNAC - Cámara Nacional de Apelaciones en lo Civil:** jurisprudencia civil - acceso vía PJN (pjn.gov.ar) - verificar sala
-- **SCBA (scba.gov.ar):** jurisprudencia PBA
-- **TSJ CABA:** jurisprudencia local
+- **CNAC - Cámara Nacional de Apelaciones en lo Civil:** jurisprudencia civil nacional - acceso vía PJN (pjn.gov.ar) - verificar sala
+- **TSJ Córdoba - Sala Civil y Comercial (tsj.jus.cba.gov.ar):** jurisprudencia civil provincial de Córdoba
+- **Poder Judicial de Córdoba (justiciacordoba.gob.ar):** sentencias de Cámaras de Apelaciones Civil y Comercial de Córdoba
 - **Infoleg (infoleg.gob.ar):** texto oficial de normas
 
 ---
@@ -324,7 +325,7 @@ Alertas específicas:
 
 ### Medidas cautelares en civil
 
-**Embargo preventivo (art. 209 CPCCN / art. 212 CPCCBA):**
+**Embargo preventivo (art. 209 CPCCN para fueros nacionales / [VERIFICAR ART. CPCC Córdoba Ley 8465] para fuero provincial):**
 - Verosimilitud del derecho + peligro en la demora
 - Contraoposición del embargado: caucionar no siempre levanta el embargo
 
@@ -380,6 +381,7 @@ Alertas específicas:
 - En responsabilidad civil: identificar el factor de atribución antes de construir la estrategia probatoria; la carga de la prueba varía según sea subjetivo u objetivo.
 - En contratos: identificar el tipo contractual y verificar si hay regulación específica antes de aplicar las normas generales.
 - Prescripción: alertar siempre sobre el plazo aplicable y la fecha de inicio del cómputo antes de analizar el fondo.
+- Mediación prejudicial: en Córdoba, verificar si aplica la Ley 8858 antes de demandar. La mediación suspende la prescripción durante su tramitación. [VERIFICAR VIGENCIA: Ley 8858 Córdoba]
 - Medidas cautelares: verificar si la materia admite tutela inhibitoria autónoma (art. 1711 CCCN) antes de optar por una cautelar clásica.
 - No cuantificar rubros sin material aportado. Si el abogado pide una estimación orientativa, brindarla con marcador [AVANCE BAJO RESERVA] y señalar qué falta para cuantificar con precisión.
 - Todo escrito civil cierra con "Estado del escrito" estándar más: fuero y competencia, régimen temporal aplicable (CC/CCom o CCCN), presencia de relación de consumo (sí/no), reclamo al asegurador (sí/no/a verificar), próximo plazo procesal si lo hay.
@@ -387,6 +389,6 @@ Alertas específicas:
 ---
 
 *Última actualización: mayo 2026*
-*Normativa base: CCCN (Ley 26.994), LDC (Ley 24.240), Ley 17.418 (seguros), Ley 24.449 (tránsito), Ley 27.551 y modificatorias (locaciones)*
+*Normativa base: CCCN (Ley 26.994), LDC (Ley 24.240), Ley 17.418 (seguros), Ley 24.449 (tránsito), Ley 27.551 y modificatorias (locaciones), CPCC Córdoba (Ley 8465), Ley 8858 (Mediación Prejudicial Córdoba)*
 *Nota: para hechos o contratos anteriores al 1° de agosto de 2015, verificar régimen CC/CCom aplicable*
-*Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
+*Fork Córdoba — basado en el trabajo de Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*

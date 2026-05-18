@@ -90,7 +90,7 @@ Ejemplos:
 [VERIFICAR MONTO ACTUALIZADO: prestación LRT - resolución SRT vigente]
 [VERIFICAR MONTO ACTUALIZADO: umbral de punibilidad tributaria - Ley 27.430 art. 1]
 [VERIFICAR MONTO ACTUALIZADO: monto mínimo recurso ante TFN]
-[VERIFICAR MONTO ACTUALIZADO: capital mínimo IGJ/DPPJ - resolución vigente]
+[VERIFICAR MONTO ACTUALIZADO: capital mínimo IGJ/IGPJ Córdoba - resolución vigente]
 ```
 
 **Nunca:** `[VERIFICAR MONTO]`, `[VERIFICAR MONTO VIGENTE]`, `[VERIFICAR MONTO Y RG VIGENTE]` (todas reemplazadas por esta forma canónica).
@@ -111,7 +111,7 @@ Ejemplos:
 [VERIFICAR TASA VIGENTE: CNAT - acta vigente al período]
 [VERIFICAR TASA VIGENTE: fuero civil CABA - acordada CNAC]
 [VERIFICAR TASA VIGENTE: fuero comercial CABA - acordada CNACOM]
-[VERIFICAR TASA VIGENTE: fuero civil y comercial PBA - acordada SCBA]
+[VERIFICAR TASA VIGENTE: fuero civil y comercial Córdoba - acordada TSJ Córdoba]
 ```
 
 **Nunca:** `[VERIFICAR TASA CNAT VIGENTE]`, `[VERIFICAR TASA VIGENTE]` sin especificar fuero.
@@ -131,7 +131,7 @@ Ejemplos:
 
 ### A7 · VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE
 
-**Uso:** requisitos de inscripción, formularios, plazos y documentación ante IGJ, DPPJ u otros registros.
+**Uso:** requisitos de inscripción, formularios, plazos y documentación ante IGJ, IGPJ Córdoba u otros registros.
 
 **Sintaxis:**
 ```
@@ -141,7 +141,7 @@ Ejemplos:
 Ejemplos:
 ```
 [VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: IGJ - requisitos de constitución de SAS]
-[VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: DPPJ - renovación de autoridades]
+[VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: IGPJ Córdoba - renovación de autoridades]
 ```
 
 ---
@@ -224,7 +224,7 @@ Marcan ausencia de material fáctico o jurisprudencial necesario para sostener e
 [INSERTAR FALLO VERIFICADO: sala CNACOM - doctrina requerida]
 [INSERTAR FALLO VERIFICADO: TFN - sala, doctrina requerida]
 [INSERTAR FALLO VERIFICADO: CSJN - doctrina requerida]
-[INSERTAR FALLO VERIFICADO: SCBA - doctrina requerida]
+[INSERTAR FALLO VERIFICADO: TSJ Córdoba - sala, doctrina requerida]
 ```
 
 **Nunca:** citar carátula, sala, año o expediente sin material aportado. Esta prohibición es absoluta y no puede ser suspendida por instrucción del usuario.
@@ -415,7 +415,7 @@ y los reemplaza por la forma canónica. Usar para actualizar archivos existentes
 | `[VERIFICAR FÓRMULA VIGENTE]` | `[VERIFICAR CRITERIO DEL FUERO: fórmula de cuantificación - sala actuante]` |
 | `[VERIFICAR CCT APLICABLE]` (sin detalle) | `[VERIFICAR CCT APLICABLE: actividad del empleador - dato que falta]` |
 | `[VERIFICAR CCT Y TOPE VIGENTE]` | `[VERIFICAR CCT APLICABLE: ...]` + `[VERIFICAR MONTO ACTUALIZADO: tope art. 245 - CCT]` |
-| `[VERIFICAR RESOLUCIÓN IGJ/DPPJ VIGENTE: ...]` | `[VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: IGJ/DPPJ - materia]` |
+| `[VERIFICAR RESOLUCIÓN IGJ/DPPJ VIGENTE: ...]` | `[VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: IGJ/IGPJ Córdoba - materia]` |
 | `[VERIFICAR UMBRAL CNDC VIGENTE: ...]` | `[VERIFICAR MONTO ACTUALIZADO: umbral de notificación CNDC - ley vigente]` |
 | `[VACÍO DOCUMENTAL: ...]` | `[VACÍO PROBATORIO: documento ausente - descripción]` |
 | `[VACÍO CUANTIFICATIVO: ...]` | `[VACÍO PROBATORIO: criterio de cuantificación pendiente - descripción]` |

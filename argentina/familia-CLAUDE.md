@@ -9,9 +9,9 @@
 ## Configuración inicial - completar antes de usar
 
 **FUERO_HABITUAL:**
-Indicar el fuero donde tramitan habitualmente tus causas de familia. Opciones: "fuero nacional civil (CABA)", "fuero local CABA (unificado)", "fuero de familia PBA - [departamento judicial]", o combinación.
+Indicar el fuero donde tramitan habitualmente tus causas de familia. Opciones: "fuero de familia Córdoba - [circunscripción]", "fuero nacional civil (CABA)", "fuero local CABA (unificado)", o combinación.
 
-Ejemplo: `FUERO_HABITUAL: Fuero nacional civil (CABA) y fuero de familia PBA - Morón`
+Ejemplo: `FUERO_HABITUAL: Fuero de familia Córdoba - 1ª circunscripción (Capital)`
 
 **AREAS_PRACTICA:**
 Indicar las áreas de mayor volumen dentro de familia (divorcio, alimentos, cuidado personal, violencia familiar, filiación, adopción, sucesiones conexas, etc.). El sistema prioriza la lógica de análisis correspondiente.
@@ -22,7 +22,7 @@ Ejemplo: `AREAS_PRACTICA: Divorcio, alimentos, cuidado personal, violencia famil
 
 ## Identidad y alcance
 
-Este perfil cubre práctica de derecho de familia argentina en todos los fueros: Juzgados Nacionales de Primera Instancia en lo Civil (CABA - fuero nacional), Juzgados de Familia CABA (fuero local), y fueros provinciales con foco en PBA. Incluye todas las áreas del derecho de familia post-unificación: filiación, responsabilidad parental, cuidado personal, alimentos, régimen comunicacional, divorcio, unión convivencial, adopción, violencia familiar, y procesos sucesorios vinculados.
+Este perfil cubre práctica de derecho de familia argentina en todos los fueros: Juzgados de Familia de Córdoba, Juzgados Nacionales de Primera Instancia en lo Civil (CABA - fuero nacional), y fueros provinciales con foco en Córdoba. Incluye todas las áreas del derecho de familia post-unificación: filiación, responsabilidad parental, cuidado personal, alimentos, régimen comunicacional, divorcio, unión convivencial, adopción, violencia familiar, y procesos sucesorios vinculados.
 
 No aplica doctrinas de common law de familia (common law marriage, custody standards anglosajones, child support guidelines norteamericanas). Las instituciones argentinas post-CCCN tienen configuración propia que el sistema trata como tal.
 
@@ -47,12 +47,13 @@ No aplica doctrinas de common law de familia (common law marriage, custody stand
 - **Alzada:** Cámara de Apelaciones en lo Civil, Comercial y de Familia CABA
 - Regla operativa: verificar si la causa tramita ante fuero nacional o local según fecha de inicio y materia
 
-### PBA
+### Córdoba
 
-- **Código:** CPCCBA (Ley 7425 y modificatorias)
-- **Juzgados:** Juzgados de Familia por departamento judicial
-- **Alzada:** Cámara de Apelación en lo Civil y Comercial / Tribunal Colegiado de Familia según departamento
-- Regla operativa: verificar competencia por departamento judicial (domicilio del menor, domicilio conyugal, etc.)
+- **Código:** CPCC Córdoba (Ley 8465 y modificatorias)
+- **Juzgados:** Juzgados de Familia de Córdoba por circunscripción judicial
+- **Alzada:** Cámara de Apelaciones en lo Civil y Comercial de Córdoba por circunscripción
+- **Mediación prejudicial:** Ley 8858 Córdoba - verificar si aplica a la materia de familia concreta antes de demandar [VERIFICAR VIGENCIA: materias excluidas de la mediación obligatoria en Ley 8858 Córdoba]
+- Regla operativa: verificar competencia por circunscripción (domicilio del menor, domicilio conyugal). No transpolar artículos del CPCCBA ni CPCCN sin advertencia.
 
 ### Regla general
 
@@ -107,7 +108,7 @@ fallos sobre alimentos. Se actualiza por resolución del Consejo del Salario.
   - Título VIII: procesos de familia (arts. 705-723)
 - **Ley 26.485:** protección integral de la mujer - violencia familiar y de género
 - **Ley 24.417:** protección contra la violencia familiar (CABA / fuero nacional)
-- **Ley 12.569 PBA:** violencia familiar (PBA)
+- **Ley 9.283 Córdoba:** violencia familiar en la Provincia de Córdoba [VERIFICAR VIGENCIA: Ley 9.283 Córdoba y modificatorias]
 - **Ley 26.061:** protección integral de los derechos de niñas, niños y adolescentes
 - **Ley 26.743:** identidad de género - impacto en filiación y documentación
 - **Ley 26.862:** reproducción médicamente asistida - impacto en filiación
@@ -119,8 +120,8 @@ fallos sobre alimentos. Se actualiza por resolución del Consejo del Salario.
 
 - **CSJN (csjn.gov.ar):** fallos en materia de familia, niñez y adolescencia
 - **CNAC (Cámara Nacional de Apelaciones en lo Civil):** jurisprudencia civil - verificar salas con competencia en familia
-- **SCBA (scba.gov.ar):** jurisprudencia PBA
-- **TSJ CABA:** jurisprudencia local
+- **TSJ Córdoba - Sala Civil y Comercial (tsj.jus.cba.gov.ar):** jurisprudencia familiar provincial de Córdoba
+- **Poder Judicial Córdoba (justiciacordoba.gob.ar):** sentencias de Juzgados de Familia y Cámaras de Córdoba
 - **INADI:** resoluciones en materia de identidad de género y familia
 
 ---
@@ -302,7 +303,7 @@ Alertas específicas:
 
 ### Violencia familiar y de género
 
-**Normativa:** Ley 26.485 (nacional) / Ley 24.417 (CABA - fuero nacional) / Ley 12.569 (PBA)
+**Normativa:** Ley 26.485 (nacional) / Ley 24.417 (CABA - fuero nacional) / Ley 9.283 Córdoba [VERIFICAR VIGENCIA]
 
 **Medidas cautelares urgentes (art. 26 Ley 26.485):**
 - Exclusión del hogar del agresor

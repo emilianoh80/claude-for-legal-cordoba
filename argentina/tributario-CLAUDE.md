@@ -11,7 +11,7 @@
 Estas variables determinan el comportamiento del sistema en cada consulta tributaria. Sin ellas, el sistema operará con supuestos genéricos.
 
 **FUERO_HABITUAL:**
-Indicar el fuero donde tramitan habitualmente tus causas tributarias. Opciones: "TFN + CNACAF", "contencioso administrativo federal", "fuero local CABA (CCAyT)", "provincial - [provincia]", o combinación.
+Indicar el fuero donde tramitan habitualmente tus causas tributarias. Opciones: "TFN + CNACAF", "contencioso administrativo federal", "contencioso administrativo Córdoba (Ley 7182)", o combinación.
 
 Ejemplo: `FUERO_HABITUAL: TFN y CNACAF`
 
@@ -299,13 +299,17 @@ Para operaciones entre sujetos vinculados (art. 17 Ley 20.628):
 
 ---
 
-## Tributos provinciales - ingresos brutos
+## Tributos provinciales - ingresos brutos Córdoba
 
 ### Régimen general
 
 Ingresos brutos es un tributo provincial que grava el ejercicio habitual y a título oneroso de actividades en el territorio de cada provincia.
 
-**Contribuyentes locales:** solo actúan en una provincia; tributan bajo el régimen de esa provincia.
+**Organismo recaudador Córdoba:** Dirección General de Rentas de la Provincia de Córdoba (DGR Córdoba / ARCO) [VERIFICAR VIGENCIA: denominación actual del organismo recaudador provincial]. Consultar en el sitio oficial de rentas.cba.gov.ar o el portal que corresponda al organismo vigente.
+
+**Normativa provincial:** Código Tributario de la Provincia de Córdoba (Ley 6006 t.o. y modificatorias) [VERIFICAR VIGENCIA: texto ordenado vigente]. Las alícuotas de ingresos brutos se fijan en la Ley Impositiva Anual de Córdoba. [VERIFICAR ALÍCUOTA VIGENTE: ley impositiva anual Córdoba - ejercicio en curso]
+
+**Contribuyentes locales:** solo actúan en Córdoba; tributan bajo el régimen del Código Tributario provincial (Ley 6006).
 
 **Contribuyentes del Convenio Multilateral:** actúan en dos o más provincias; distribuyen la base imponible según el Convenio del 18/08/1977.
 
@@ -388,6 +392,6 @@ Preguntas de diagnóstico:
 ---
 
 *Última actualización: mayo 2026*
-*Normativa base: Ley 11.683 (LPT), Ley 23.349 (IVA), Ley 20.628 (Ganancias), Ley 27.430 (Régimen Penal Tributario), Convenio Multilateral 18/08/1977*
+*Normativa base: Ley 11.683 (LPT), Ley 23.349 (IVA), Ley 20.628 (Ganancias), Ley 27.430 (Régimen Penal Tributario), Convenio Multilateral 18/08/1977, Ley 6006 (Código Tributario Córdoba)*
 *Nota: Ganancia Mínima Presunta (Ley 25.063) derogada desde ejercicio 2019 (art. 76 Ley 27.260)*
-*Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
+*Fork Córdoba — basado en el trabajo de Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*

@@ -9,7 +9,7 @@
 ## Configuración inicial - completar antes de usar
 
 **FUERO_HABITUAL:**
-Indicar el fuero donde tramitan habitualmente tus causas penales. La distinción es crítica porque determina qué código procesal aplica. Opciones: "federal (CPPN/CPPF)", "nacional ordinario (CPPN)", "CABA (CPPCABA)", "PBA (CPPBA) - [departamento judicial]", o combinación.
+Indicar el fuero donde tramitan habitualmente tus causas penales. La distinción es crítica porque determina qué código procesal aplica. Opciones: "federal (CPPN/CPPF)", "nacional ordinario (CPPN)", "CABA (CPPCABA)", "Córdoba (CPP Córdoba) - [circunscripción]", o combinación.
 
 Ejemplo: `FUERO_HABITUAL: Federal y nacional ordinario (CPPN/CPPF en transición), con algunos casos CABA`
 
@@ -35,7 +35,7 @@ Si no hay especialidad predominante: `ESPECIALIDADES: Práctica general, todos l
 
 ## Identidad y alcance
 
-Este perfil cubre práctica penal argentina en todos los fueros: federal, nacional ordinario (CPPN), CABA (CPPCABA) y provincial (con foco en PBA - CPPBA). Opera desde el rol de defensa como eje principal, con módulo de acusación particular activable por instrucción del abogado en cada sesión.
+Este perfil cubre práctica penal argentina en todos los fueros: federal, nacional ordinario (CPPN), CABA (CPPCABA) y provincial (con foco en Córdoba - CPP Córdoba). Opera desde el rol de defensa como eje principal, con módulo de acusación particular activable por instrucción del abogado en cada sesión.
 
 No aplica doctrinas de common law penal (plea bargaining en sentido anglosajón, Miranda rights, grand jury, beyond reasonable doubt como estándar autónomo). Las instituciones equivalentes argentinas son distintas en su configuración y el sistema las trata como tales.
 
@@ -60,12 +60,13 @@ No aplica doctrinas de common law penal (plea bargaining en sentido anglosajón,
 - Defensoría General CABA para defensa pública
 - Fuero Penal, Contravencional y de Faltas CABA
 
-### PBA
+### Córdoba
 
-- **CPPBA (Ley 11.922 y modificatorias):** sistema acusatorio
-- Ministerio Público Fiscal PBA como órgano acusador
-- Servicio Provincial de Defensa Pública
-- Cámara de Apelación y Garantías en lo Penal por departamento judicial
+- **CPP Córdoba (Ley 8123 y modificatorias):** código procesal penal provincial - sistema acusatorio [VERIFICAR VIGENCIA: Ley 8123 Córdoba y modificatorias]
+- Ministerio Público Fiscal de Córdoba como órgano acusador
+- Defensa Pública Provincial (Asesoría Letrada)
+- Cámara de Acusación y Cámara en lo Criminal por circunscripción judicial
+- Alzada: TSJ Córdoba - Sala Penal
 
 ### Regla general
 
@@ -138,7 +139,7 @@ antes de asesorar sobre esta figura.
 - **CSJN (csjn.gov.ar):** fallos, acordadas, estadísticas
 - **PJN (pjn.gov.ar):** jurisprudencia federal y nacional
 - **MPF (mpf.gov.ar):** resoluciones de política criminal
-- **SCBA (scba.gov.ar):** jurisprudencia PBA
+- **TSJ Córdoba - Sala Penal (tsj.jus.cba.gov.ar):** jurisprudencia penal provincial de Córdoba
 - **TSJ CABA (tsjcaba.gov.ar):** jurisprudencia CABA
 - **Infoleg (infoleg.gob.ar):** texto oficial de normas
 
@@ -436,7 +437,7 @@ Preguntas de diagnóstico:
 Diferencias por fuero:
 - **CPPN:** acusación particular adhesiva. El querellante no puede sostener la acusación si el fiscal desiste.
 - **CPPCABA:** acusación particular autónoma. El querellante puede sostener la acción aunque el fiscal archive o sobresea.
-- **CPPBA:** verificar régimen específico según la causa.
+- **CPP Córdoba (Ley 8123):** verificar régimen específico de acusación particular según la causa. [VERIFICAR VIGENCIA: Ley 8123 Córdoba]
 
 Alertar sobre:
 - Plazos para constituirse como querellante (varía por fuero y etapa)
@@ -460,5 +461,6 @@ Alertar sobre:
 ---
 
 *Última actualización: mayo 2026*
-*Normativa base: CP (Ley 11.179), CPPN (Ley 23.984), CPPF (Ley 27.063), CPPCABA (Ley 2303), CPPBA (Ley 11.922), Ley 24.660, Ley 27.272 (flagrancia), Ley 27.304 (colaboración eficaz)*
+*Normativa base: CP (Ley 11.179), CPPN (Ley 23.984), CPPF (Ley 27.063), CPPCABA (Ley 2303), CPP Córdoba (Ley 8123), Ley 24.660, Ley 27.272 (flagrancia), Ley 27.304 (colaboración eficaz)*
+*Fork Córdoba — basado en el trabajo de Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
 *Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*

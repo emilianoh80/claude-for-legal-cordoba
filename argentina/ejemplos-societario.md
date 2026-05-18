@@ -12,7 +12,7 @@
 
 ## Advertencia de uso
 
-Los requisitos registrales (IGJ / DPPJ / registros provinciales) cambian por
+Los requisitos registrales (IGPJ Córdoba / IGJ / registros provinciales) cambian por
 resolución sin publicidad amplia. Verificar el estado de trámites y requisitos
 en el organismo correspondiente antes de asesorar sobre inscripciones.
 La normativa IGJ en particular tiene resoluciones frecuentes que modifican
@@ -33,14 +33,14 @@ cubre el alcance estándar para una empresa mediana argentina.
 - [ ] Estatuto social vigente y todas sus modificaciones
 - [ ] Libro de actas de directorio y asamblea: últimos 5 años
 - [ ] Libro de registro de acciones o cuotas partes: titular actual verificado
-- [ ] Inscripción vigente ante IGJ / DPPJ: verificar última renovación de autoridades
+- [ ] Inscripción vigente ante IGPJ Córdoba / IGJ: verificar última renovación de autoridades
 - [ ] Poderes vigentes: verificar alcance y si hay poderes revocados no cancelados
 - [ ] Sucursales: verificar inscripción si tiene actividad en otras provincias
 - [ ] Sociedades vinculadas y controladas: verificar estructura del grupo
 
 **Alertas específicas:**
 ```
-[VERIFICAR VIGENCIA: autoridades inscriptas en IGJ/DPPJ - contrastar con libro de actas]
+[VERIFICAR VIGENCIA: autoridades inscriptas en IGPJ Córdoba/IGJ - contrastar con libro de actas]
 [VERIFICAR: si la sociedad tiene más de 2 años sin renovar autoridades, puede haber
  irregularidades que dificulten la inscripción de la transferencia]
 ```
@@ -49,7 +49,7 @@ cubre el alcance estándar para una empresa mediana argentina.
 
 - [ ] Nómina completa de empleados: modalidad contractual, antigüedad, CCT aplicable
 - [ ] Registración ante AFIP (F.931): verificar consistencia con nómina real
-- [ ] Juicios laborales pendientes: fuero nacional + PBA si corresponde
+- [ ] Juicios laborales pendientes: fuero laboral Córdoba + fuero nacional si corresponde
 - [ ] CCT aplicable: ¿se paga el salario convencional? ¿hay diferencias pendientes?
 - [ ] Pasivos contingentes: estimar liquidaciones eventuales si hay empleados con
       antigüedad alta y salario por encima del tope
@@ -67,7 +67,7 @@ cubre el alcance estándar para una empresa mediana argentina.
 - [ ] Declaraciones juradas de IVA y Ganancias: últimos 3 ejercicios
 - [ ] Deudas ante AFIP: certificado de deuda o consulta de estado de cuenta
 - [ ] Planes de pago vigentes: verificar cuotas al día y monto pendiente
-- [ ] Ingresos brutos: deudas ante AGIP (CABA) o ARBA (PBA)
+- [ ] Ingresos brutos: deudas ante DGR / ARCO Córdoba (y/o AGIP si tiene actividad en CABA)
 - [ ] Convenio Multilateral: si la empresa tiene actividad multijurisdiccional
 - [ ] Juicios de ejecución fiscal pendientes
 
@@ -232,12 +232,12 @@ Verificar antes de asesorar sobre el tipo societario más adecuado.
 | Criterio | SRL | SA | SAS |
 |---|---|---|---|
 | Socios | 2-50 | 1 o más | 1 o más |
-| Capital mínimo | Sin mínimo legal actual [VERIFICAR MONTO IGJ VIGENTE] | Sin mínimo legal actual [VERIFICAR MONTO IGJ VIGENTE] | Sin mínimo |
+| Capital mínimo | Sin mínimo legal actual [VERIFICAR MONTO IGPJ/IGJ VIGENTE] | Sin mínimo legal actual [VERIFICAR MONTO IGPJ/IGJ VIGENTE] | Sin mínimo |
 | Órgano de administración | Gerencia | Directorio | Administrador(es) |
 | Constitución | Escritura pública o instrumento privado con firma certificada | Escritura pública | Instrumento privado / online |
-| Registro | IGJ / DPPJ | IGJ / DPPJ | IGJ / DPPJ |
+| Registro | IGPJ Córdoba / IGJ | IGPJ Córdoba / IGJ | IGPJ Córdoba / IGJ |
 | Velocidad de inscripción | Media | Media-lenta | Rápida (trámite simplificado) |
-| Fiscalización | Sindicatura opcional | Sindicatura obligatoria si supera ciertos parámetros [VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: IGJ/DPPJ - parámetros de activación de sindicatura obligatoria] | Simplificada |
+| Fiscalización | Sindicatura opcional | Sindicatura obligatoria si supera ciertos parámetros [VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: IGPJ Córdoba/IGJ - parámetros de activación de sindicatura obligatoria] | Simplificada |
 | Apta para recibir inversión VC | No ideal | Sí | Sí (con limitaciones) |
 
 ```

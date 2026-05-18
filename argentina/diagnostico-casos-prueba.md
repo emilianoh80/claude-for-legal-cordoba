@@ -550,7 +550,7 @@ Sin citas jurisprudenciales. Se requieren para evaluar la ejecutabilidad del dra
  de jurisdicción a tribunales del Estado de Delaware - norma: art. 2654 CCCN
  [VERIFICAR VIGENCIA]. Si alguno de los accionistas es consumidor, la prórroga
  es inválida de pleno derecho. Incluso entre no consumidores: las sociedades
- argentinas inscriptas en IGJ/DPPJ tienen vínculos con el ordenamiento argentino
+ argentinas inscriptas en IGPJ Córdoba/IGJ tienen vínculos con el ordenamiento argentino
  que pueden tornar inaplicable la prórroga en aspectos de derecho societario
  (arts. 118-124 LGS [VERIFICAR VIGENCIA]). Verificar con el abogado si la
  prórroga es válida para el tipo de controversia que se prevé.]
@@ -608,7 +608,7 @@ No aplica (es un contrato, no un escrito judicial).
 [VERIFICAR VIGENCIA] CCCN art. 10 - abuso del derecho
 [VERIFICAR VIGENCIA] LGS art. 54 - inoponibilidad de la personalidad jurídica / abuso de control
 [VERIFICAR VIGENCIA] LGS arts. 118-124 - sociedades extranjeras y ley aplicable
-[VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: IGJ/DPPJ - oponibilidad de pactos de accionistas]
+[VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: IGJ/IGPJ Córdoba - oponibilidad de pactos de accionistas]
 ```
 
 ---

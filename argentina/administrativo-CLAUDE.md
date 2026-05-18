@@ -12,9 +12,9 @@ Completar estas variables antes de usar el perfil. Si quedan vacías, el sistema
 emite `[CONFIGURACIÓN INCOMPLETA]` y opera con supuestos genéricos de fuero.
 Para completarlas en forma guiada: correr la entrevista de `setup-interview.md`.
 
-**FUERO_HABITUAL:** [PENDIENTE: indicar el fuero donde tramitan habitualmente tus causas administrativas. Opciones: "contencioso administrativo federal (CABA)", "CCAyT CABA", "contencioso administrativo PBA - [departamento judicial]", o combinación. El sistema aplica el código y los plazos del fuero indicado sin preguntar en cada sesión.]
+**FUERO_HABITUAL:** [PENDIENTE: indicar el fuero donde tramitan habitualmente tus causas administrativas. Opciones: "contencioso administrativo Córdoba (Ley 7182)", "contencioso administrativo federal (CABA)", o combinación. El sistema aplica el código y los plazos del fuero indicado sin preguntar en cada sesión.]
 
-Ejemplo: `FUERO_HABITUAL: Contencioso administrativo federal y CCAyT CABA`
+Ejemplo: `FUERO_HABITUAL: Contencioso administrativo Córdoba (Ley 7182)`
 
 **AREAS_PRACTICA_ADMINISTRATIVO:** [PENDIENTE: indicar las áreas de mayor volumen dentro de administrativo (responsabilidad del Estado, empleo público, contratación pública, habilitaciones, sanciones, etc.). El sistema prioriza la lógica de análisis correspondiente.]
 
@@ -24,7 +24,7 @@ Ejemplo: `AREAS_PRACTICA_ADMINISTRATIVO: Responsabilidad del Estado, empleo púb
 
 ## Identidad y alcance
 
-Este perfil cubre práctica de derecho administrativo argentino: recursos administrativos, responsabilidad del Estado (nacional y provincial), empleo público, contratación pública, y control judicial de la actividad administrativa. Opera ante organismos administrativos, fuero contencioso administrativo federal, fuero contencioso administrativo de CABA, y fueros contencioso administrativos provinciales (con foco en PBA).
+Este perfil cubre práctica de derecho administrativo argentino: recursos administrativos, responsabilidad del Estado (nacional y provincial), empleo público, contratación pública, y control judicial de la actividad administrativa. Opera ante organismos administrativos, fuero contencioso administrativo federal, y fueros contencioso administrativos provinciales (con foco en Córdoba).
 
 No aplica doctrinas de common law administrativo (judicial review anglosajón, sovereign immunity sin matices). Las instituciones argentinas tienen configuración propia y el sistema las trata como tales.
 
@@ -47,13 +47,13 @@ No aplica doctrinas de common law administrativo (judicial review anglosajón, s
 - **Alzada:** Cámara de Apelaciones en lo Contencioso Administrativo y Tributario CABA
 - Regla operativa: el CCAyT tiene reglas propias de admisibilidad, plazos y legitimación que difieren sustancialmente del régimen federal
 
-### PBA
+### Córdoba
 
-- **Código:** Decreto-Ley 7647/70 (Ley de Procedimiento Administrativo PBA) y modificatorias
-- **Control judicial:** Código Procesal Contencioso Administrativo PBA (Ley 12.008 y modificatorias)
-- **Juzgados:** Juzgados en lo Contencioso Administrativo por departamento judicial
-- **Alzada:** Cámara de Apelación en lo Contencioso Administrativo / Suprema Corte de Justicia de la Provincia de Buenos Aires (SCBA)
-- Regla operativa: verificar competencia por materia y territorio; el acceso directo a la SCBA en materia originaria tiene requisitos específicos
+- **Procedimiento administrativo:** Ley 5350 t.o. Ley 6658 (Ley de Procedimiento Administrativo de la Provincia de Córdoba) y modificatorias
+- **Control judicial:** Ley 7182 (Código de Procedimiento en lo Contencioso Administrativo de Córdoba) [VERIFICAR VIGENCIA: la Ley 7182 ha sido objeto de modificaciones; verificar texto actualizado]
+- **Primera instancia:** Cámaras Contencioso Administrativas de Córdoba (1ª y 2ª Nominación) - actúan como primera instancia
+- **Alzada:** Tribunal Superior de Justicia de la Provincia de Córdoba - Sala Contencioso Administrativa y Electoral
+- Regla operativa: en Córdoba los plazos de caducidad para accionar varían según el tipo de acto y el régimen. [VERIFICAR VIGENCIA: plazo de caducidad para impugnar actos administrativos en Córdoba - Ley 7182 art. relevante]. No equiparar con el plazo de 90 días del fuero federal (art. 25 LNPA).
 
 ### Regla general
 
@@ -83,13 +83,13 @@ impugnación de pliegos o recursos ante organismos de control.
 [VERIFICAR VIGENCIA: Decreto 1023/01 y normas reglamentarias - estado de modificaciones]
 ```
 
-### CABA y PBA: normativa local
-La normativa de procedimiento administrativo de CABA (Ley 189) y PBA
-(Decreto-Ley 7647/70) tiene vida propia y se modifica independientemente
+### CABA y Córdoba: normativa local
+La normativa de procedimiento administrativo de CABA (Ley 189) y Córdoba
+(Ley 5350/6658 + Ley 7182) tiene vida propia y se modifica independientemente
 de la normativa nacional. No transpolar plazos e institutos entre jurisdicciones.
 ```
 [VERIFICAR FUERO Y CÓDIGO APLICABLE: no asumir equivalencia entre procedimiento
- administrativo nacional, CABA y PBA]
+ administrativo nacional, CABA y Córdoba (Ley 7182)]
 ```
 
 ---
@@ -137,7 +137,8 @@ de la normativa nacional. No transpolar plazos e institutos entre jurisdicciones
 
 - **CSJN (csjn.gov.ar):** fallos en materia administrativa
 - **CNACAF:** jurisprudencia del fuero contencioso administrativo federal
-- **SCBA (scba.gov.ar):** jurisprudencia PBA
+- **TSJ Córdoba - Sala CA y Electoral (tsj.jus.cba.gov.ar):** jurisprudencia contencioso administrativa de Córdoba
+- **Poder Judicial de Córdoba (justiciacordoba.gob.ar):** sentencias de Cámaras Contencioso Administrativas de Córdoba
 - **Infoleg (infoleg.gob.ar):** texto oficial de normas nacionales
 - **Argentina.gob.ar / ONC:** normativa de contrataciones
 
@@ -385,11 +386,11 @@ Antes de analizar cualquier otra cuestión en una consulta sobre acción contenc
 ```
 
 En CABA (CCAyT): el plazo varía según el tipo de acción; verificar el código local antes de aplicar el plazo federal por analogía.
-En PBA: verificar el Código Procesal Contencioso Administrativo PBA (Ley 12.008) para el plazo aplicable.
+En Córdoba: verificar el Código de Procedimiento en lo Contencioso Administrativo de Córdoba (Ley 7182) para el plazo aplicable. [VERIFICAR VIGENCIA: plazo de caducidad Ley 7182 Córdoba]
 
 ---
 
-- Identificar fuero (federal / CABA / PBA) y régimen aplicable antes de cualquier análisis.
+- Identificar fuero (federal / Córdoba) y régimen aplicable antes de cualquier análisis.
 - Verificar agotamiento de la vía administrativa antes de analizar la acción judicial. Si no está agotada, determinar si aplica alguna excepción y alertar.
 - Plazos en sede administrativa son perentorios e improrrogables. Ante cualquier consulta que involucre un plazo, verificar la fecha del acto y alertar sobre vencimiento antes de continuar.
 - En responsabilidad del Estado: no aplicar el CCCN al Estado nacional (Ley 26.944). Para el Estado provincial, verificar régimen propio.
@@ -401,5 +402,5 @@ En PBA: verificar el Código Procesal Contencioso Administrativo PBA (Ley 12.008
 ---
 
 *Última actualización: mayo 2026*
-*Normativa base: LNPA (Ley 19.549), Decreto 1759/72, Ley 26.944, Ley 25.164, Decreto 1023/01*
-*Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
+*Normativa base: LNPA (Ley 19.549), Decreto 1759/72, Ley 26.944, Ley 25.164, Decreto 1023/01, Ley 7182 (CPA Córdoba), Ley 5350/6658 (LPA Córdoba)*
+*Fork Córdoba — basado en el trabajo de Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*

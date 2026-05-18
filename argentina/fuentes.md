@@ -38,7 +38,7 @@ conector no estaba disponible.
 | 2 - Psflores (PJN/CABA) | Jurisprudencia fueros nacionales | Acceder a pjn.gov.ar o buenosaires.gob.ar/jusbaires y pegar el fallo en la sesión |
 | 3 - guidobonomini | Análisis semántico / glosario | Operar con el glosario del CLAUDE.md argentino; la calidad terminológica puede bajar |
 | 4 - Tesauro SAIJ | Vocabulario jurídico | Usar terminología estándar del CCCN y LCT directamente |
-| SCBA | Jurisprudencia PBA | Acceder a scba.gov.ar/jurisprudencia y pegar el fallo en la sesión |
+| TSJ Córdoba | Jurisprudencia Córdoba | Acceder a tsj.jus.cba.gov.ar y pegar el fallo en la sesión |
 
 Cuando se usa el fallback manual (pegar texto en sesión), indicar siempre
 al inicio del texto pegado: fuente, fecha de consulta, y URL de origen.
@@ -159,29 +159,25 @@ Limitaciones:
 
 ---
 
-### 6. SCBA - Jurisprudencia PBA
+### 6. TSJ Córdoba - Jurisprudencia provincial
 
-**Estado:** conector MCP de fuente abierta no disponible. FalloBot (conector 5) cubre SCBA vía JUBA. Ver también fuentes directas abajo.
+**Estado:** conector MCP de fuente abierta no disponible. Acceso directo disponible. FalloBot (conector 5) puede cubrir jurisprudencia de CSJN y SAIJ, pero la cobertura específica del TSJ Córdoba y las cámaras provinciales debe verificarse.
 
-La Suprema Corte de Justicia de la Provincia de Buenos Aires (SCBA) tiene
-jurisprudencia relevante especialmente en materia laboral, civil y administrativo
-provincial que no está cubierta por conectores de fuente abierta.
+El Tribunal Superior de Justicia de la Provincia de Córdoba (TSJ Córdoba) tiene
+jurisprudencia relevante en materia laboral, civil, contencioso administrativa
+y penal provincial.
 
-**Expansión de cobertura JUBA (Acuerdo 4011 / Resolución RP 1651/24):**
-La SCBA implementó publicidad total de sentencias en etapas:
-- Desde marzo 2025: Cámaras de Apelación provinciales y Tribunal de Casación Penal
-- Desde junio 2025: juzgados de primera instancia civiles, laborales y contencioso administrativos
-
-Esto aumenta significativamente la cobertura que FalloBot (conector 5) puede acceder vía JUBA en tiempo real.
-
-**Alternativa directa mientras no hay conector MCP de fuente abierta:**
-Acceder directamente a https://scba.gov.ar/jurisprudencia/ y pegar el texto
+**Alternativa directa:**
+Acceder directamente a https://tsj.jus.cba.gov.ar (sala correspondiente) y pegar el texto
 del fallo en la sesión para que el sistema lo procese. Indicar siempre:
 sala, fecha, carátula y número de expediente.
 
+También disponible en el portal del Poder Judicial de Córdoba (justiciacordoba.gob.ar)
+para sentencias de cámaras y primera instancia.
+
 **Para quien quiera desarrollar el conector:**
-La SCBA tiene acceso programático a JUBA. La contribución de un conector MCP
-de fuente abierta sería la de mayor impacto para práctica bonaerense.
+La contribución de un conector MCP para jurisprudencia del TSJ Córdoba
+y las Cámaras cordobesas sería de alto impacto para práctica en esta provincia.
 
 ---
 
@@ -190,10 +186,10 @@ de fuente abierta sería la de mayor impacto para práctica bonaerense.
 | Necesidad | Conector recomendado | Alternativa |
 |---|---|---|
 | Verificar texto de una norma nacional | 1 (Ansvar) | InfoLEG directo |
-| Verificar texto de una norma provincial PBA | Sin conector MCP | normas.gba.gob.ar directo |
+| Verificar texto de una norma provincial Córdoba | Sin conector MCP | SAIJ / portal Legislatura Córdoba directo |
 | Buscar jurisprudencia CSJN | 5 (FalloBot, plan Pro) | sj.csjn.gov.ar directo |
 | Buscar jurisprudencia CABA / fueros nacionales | 2 (Psflores) | PJN directo |
-| Buscar jurisprudencia PBA (SCBA y cámaras) | 5 (FalloBot, plan Pro) | JUBA / SCBA directo |
+| Buscar jurisprudencia TSJ Córdoba y cámaras | Sin conector MCP | tsj.jus.cba.gov.ar / justiciacordoba.gob.ar |
 | Buscar jurisprudencia multifuente simultánea | 5 (FalloBot, plan Pro) | Fuentes por separado |
 | Análisis semántico / terminología | 3 (guidobonomini) | - |
 | Mejorar búsquedas jurisprudenciales | 4 (Tesauro SAIJ) | SAIJ directo |
@@ -237,20 +233,20 @@ hay discrepancia con cualquier conector.
 | Fuente | URL | Uso principal |
 |---|---|---|
 | InfoLEG | infoleg.gob.ar | Texto oficial de normas nacionales |
-| normas.gba.gob.ar | normas.gba.gob.ar | Texto oficial de normas provinciales PBA: leyes, decretos, decretos-ley, resoluciones, disposiciones, Constitución PBA, códigos provinciales (CPCCBA, CPPBA, CPL PBA, Código Fiscal, etc.). Sistema de Información Normativa y Documental del Gobierno de la Provincia de Buenos Aires. Sin API pública documentada: acceso por búsqueda web o URL directa por número de norma. |
-| SAIJ | saij.gob.ar | Jurisprudencia, doctrina, legislación provincial |
+| SAIJ | saij.gob.ar | Jurisprudencia, doctrina, legislación provincial (incluye normas de Córdoba) |
 | PJN | pjn.gov.ar | Acordadas y jurisprudencia federal |
 | CNACAF | cnacaf.gov.ar | Jurisprudencia contencioso administrativo federal y alzada tributaria |
-| SCBA | scba.gov.ar | Jurisprudencia PBA - fuente primaria bonaerense |
-| JUBA | juba.scba.gov.ar | Sistema de consulta de jurisprudencia PBA (SCBA + cámaras + primera instancia desde 2025) |
+| TSJ Córdoba | tsj.jus.cba.gov.ar | Jurisprudencia TSJ Córdoba - fuente primaria provincial |
+| Poder Judicial Córdoba | justiciacordoba.gob.ar | Jurisprudencia cámaras y juzgados de Córdoba |
 | Poder Judicial CABA | buenosaires.gob.ar/jusbaires | Jurisprudencia fuero local CABA |
 | PTN | ptn.gov.ar | Dictámenes de la Procuración del Tesoro de la Nación - responsabilidad del Estado y empleo público |
 | AAIP | argentina.gob.ar/aaip | Disposiciones de datos personales |
 | IGJ | igj.gob.ar | Resoluciones societarias CABA |
-| DPPJ | gba.gob.ar/dppj | Resoluciones societarias PBA |
+| IGPJ Córdoba | justiciacordoba.gob.ar (Ministerio de Justicia Córdoba) | Resoluciones societarias Córdoba |
 | CNV | cnv.gov.ar | Normas y resoluciones mercado de capitales |
 | BCRA | bcra.gov.ar | Normativa cambiaria y financiera |
 | COMARB | comarb.gov.ar | Convenio Multilateral - Ingresos Brutos |
+| DGR / ARCO Córdoba | rentas.cba.gov.ar | Normativa tributaria provincial Córdoba - verificar URL vigente |
 | TFN | tfnacional.gov.ar | Jurisprudencia tributaria |
 
 ---
@@ -276,8 +272,8 @@ en el issue tracker del repositorio correspondiente.
 
 ## Contribuciones
 
-Si desarrollás un conector para una fuente no cubierta, especialmente SCBA
-o jurisprudencia provincial de otras provincias, abrí un PR en este repositorio
+Si desarrollás un conector para una fuente no cubierta, especialmente TSJ Córdoba
+o jurisprudencia de las Cámaras de Córdoba, abrí un PR en este repositorio
 para agregar la referencia a esta lista.
 
 ---

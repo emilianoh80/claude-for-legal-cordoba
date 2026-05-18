@@ -1,7 +1,13 @@
-# claude-for-legal · Adaptación Argentina
+# claude-for-legal · Adaptación Argentina — Fork Córdoba
 
-Configuración de Claude para práctica legal argentina. El material está construido
-sobre derecho argentino: CCCN, LCT, LDC, LGS, CPCCN/CPCCBA, y normas especiales.
+Configuración de Claude para práctica legal argentina con foco en la **Provincia de Córdoba**.
+Fork del repositorio original de Dr. Cristian Aboitiz ([@abogadoaboitiz](https://x.com/abogadoaboitiz)).
+
+El material está construido sobre derecho argentino: CCCN, LCT, LDC, LGS, CPCCN/CPCC Córdoba (Ley 8465),
+y normas especiales. Los perfiles de área están adaptados para la organización judicial de Córdoba:
+TSJ Córdoba, Cámaras del Trabajo (Ley 7987), Cámaras Contencioso Administrativas (Ley 7182),
+IGPJ Córdoba y DGR/ARCO Córdoba.
+
 No requiere ningún repositorio externo para funcionar; puede usarse de forma
 autónoma desde Claude.ai Projects o Claude Code.
 
@@ -41,10 +47,12 @@ argentina/
 **Opera bajo:**
 - CCCN (Ley 26.994) para contratos y obligaciones
 - LCT (Ley 20.744) y modificatorias para materia laboral
+- Ley 7987 para proceso laboral en Córdoba (Cámaras del Trabajo)
 - Ley 25.326 y disposiciones AAIP para privacidad y datos personales
-- CPCCN para fueros nacionales y federales / CPCCBA para PBA
+- CPCCN para fueros nacionales y federales / CPCC Córdoba (Ley 8465) para fuero provincial
 - LDC (Ley 24.240) para contratos de consumo
-- LGS para societario
+- LGS para societario (IGPJ Córdoba como organismo de contralor)
+- Ley 7182 para procedimiento contencioso administrativo de Córdoba
 
 **Reemplaza la lógica de common law en tres áreas críticas:**
 - Contratos: análisis bajo CCCN (no bajo consideration ni indemnification caps)
@@ -107,7 +115,7 @@ Los perfiles disponibles:
 | `civil-CLAUDE.md` | Derecho civil (CCCN) | `ejemplos-civil.md` | Tasas de interés, fórmulas de daños por fuero |
 | `penal-CLAUDE.md` | Derecho penal | - | Umbrales penales, código procesal vigente |
 | `familia-CLAUDE.md` | Derecho de familia | - | Cuotas alimentarias, régimen de alquileres |
-| `societario-CLAUDE.md` | Societario y M&A | `ejemplos-societario.md` | Resoluciones IGJ/DPPJ, capital mínimo |
+| `societario-CLAUDE.md` | Societario y M&A | `ejemplos-societario.md` | Resoluciones IGPJ Córdoba/IGJ, capital mínimo |
 | `tributario-CLAUDE.md` | Derecho tributario | - | Alícuotas, MNI, umbrales de punibilidad |
 | `concursos-CLAUDE.md` | Concursos y quiebras (LCQ) | - | Tasas post-concursales, reformas LCQ |
 | `contratos-CLAUDE.md` | Revisión y redacción de contratos | `red-flags-contratos.md` | Régimen cambiario, locaciones, intertemporalidad |
@@ -224,7 +232,7 @@ para instrucciones completas de verificación de estado, fallback y combinacione
 
 **Administrativo:**
 - Verificar agotamiento de la vía administrativa y plazos de caducidad (art. 25 LNPA)
-- Analizar recursos administrativos y acciones contenciosas en los tres fueros (federal, CABA, PBA)
+- Analizar recursos administrativos y acciones contenciosas en los fueros aplicables (federal y Córdoba)
 
 **Penal:**
 - Analizar estrategia de defensa por etapa procesal y código aplicable (CPPN / CPPF / CPPCABA / CPPBA)
@@ -298,9 +306,10 @@ Si hay abogados argentinos interesados en colaborar, la idea es dividir áreas d
 
 ---
 
-## Autor
+## Autor del fork Córdoba
 
-Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)  
-Abogado (CPACF) · CABA y GBA · Legal tech & IA aplicada a práctica jurídica argentina
+Fork adaptado para práctica en la Provincia de Córdoba.
+
+**Repositorio original:** Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz) · https://github.com/cristianaboitiz-eng/claude-for-legal-argentina
 
 *Última actualización: mayo 2026*
