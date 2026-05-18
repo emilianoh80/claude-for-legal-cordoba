@@ -80,7 +80,7 @@ Para completarlos: ver `argentina/setup-interview.md`.
 - **Laboral:** Cámara del Trabajo de Córdoba (primera instancia oral, Ley 7987). Alzada: TSJ - Sala Laboral
 - **Contencioso administrativo:** Cámara Contencioso Administrativa de Córdoba (Ley 7182). Alzada: TSJ - Sala Contencioso Administrativa
 - **Código procesal civil aplicable:** CPCC Córdoba (Ley 8465)
-- **Jurisprudencia de referencia:** TSJ Córdoba (tsj.jus.cba.gov.ar)
+- **Jurisprudencia de referencia:** TSJ Córdoba (jurisprudencia.justiciacordoba.gob.ar)
 - **Circunscripciones judiciales:** 1ª a 10ª (1ª = Ciudad de Córdoba)
 - Regla operativa: no asumir equivalencia automática entre CPCCN y CPCC Córdoba. No
   equiparar jurisprudencia CNAC con TSJ Córdoba. Ante duda de competencia, alertar.
@@ -273,7 +273,7 @@ Esta excepción no aplica a jurisprudencia.
 - InfoLEG (infoleg.gob.ar): texto oficial de normas nacionales
 - SAIJ (saij.gob.ar): jurisprudencia, doctrina, legislación provincial
 - PJN (pjn.gov.ar): acordadas y jurisprudencia federal
-- TSJ Córdoba (tsj.jus.cba.gov.ar): jurisprudencia provincial de Córdoba
+- TSJ Córdoba (jurisprudencia.justiciacordoba.gob.ar): jurisprudencia provincial de Córdoba
 - Poder Judicial de Córdoba (justiciacordoba.gob.ar): sentencias de cámaras y juzgados
 - AAIP (argentina.gob.ar/aaip): disposiciones de datos personales
 

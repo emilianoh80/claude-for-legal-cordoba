@@ -137,7 +137,7 @@ de la normativa nacional. No transpolar plazos e institutos entre jurisdicciones
 
 - **CSJN (csjn.gov.ar):** fallos en materia administrativa
 - **CNACAF:** jurisprudencia del fuero contencioso administrativo federal
-- **TSJ Córdoba - Sala CA y Electoral (tsj.jus.cba.gov.ar):** jurisprudencia contencioso administrativa de Córdoba
+- **TSJ Córdoba - Sala CA y Electoral (jurisprudencia.justiciacordoba.gob.ar):** jurisprudencia contencioso administrativa de Córdoba
 - **Poder Judicial de Córdoba (justiciacordoba.gob.ar):** sentencias de Cámaras Contencioso Administrativas de Córdoba
 - **Infoleg (infoleg.gob.ar):** texto oficial de normas nacionales
 - **Argentina.gob.ar / ONC:** normativa de contrataciones

@@ -2,7 +2,7 @@
 
 > Archivo de configuración para el sistema claude-for-legal · Adaptación argentina.
 > Reemplaza el CLAUDE.md original orientado a derecho norteamericano.
-> Repo: https://github.com/cristianaboitiz-eng/claude-for-legal-argentina
+> Fork Córdoba · basado en https://github.com/cristianaboitiz-eng/claude-for-legal-argentina
 
 ---
 
@@ -74,12 +74,16 @@ Para completarlos: ver `argentina/setup-interview.md`.
 - **Consumidor:** Justicia Civil CABA o provincial según domicilio del consumidor
 - **Federal:** Cámara Nacional de Apelaciones en lo Contencioso Administrativo Federal
 
-### PBA - fueros provinciales
+### Córdoba - fueros provinciales
 
-- Código aplicable: CPCCBA
-- Jurisprudencia de referencia: SCBA
-- Regla operativa: no asumir equivalencia automática entre CPCCN y CPCCBA. No equiparar
-  jurisprudencia CNAC con SCBA. Ante duda de competencia, alertar antes de continuar.
+- **Civil y comercial:** Cámara de Apelaciones en lo Civil y Comercial por circunscripción judicial
+- **Laboral:** Cámara del Trabajo de Córdoba (primera instancia oral, Ley 7987). Alzada: TSJ - Sala Laboral
+- **Contencioso administrativo:** Cámara Contencioso Administrativa de Córdoba (Ley 7182). Alzada: TSJ - Sala Contencioso Administrativa
+- **Código procesal civil aplicable:** CPCC Córdoba (Ley 8465)
+- **Jurisprudencia de referencia:** TSJ Córdoba (jurisprudencia.justiciacordoba.gob.ar)
+- **Circunscripciones judiciales:** 1ª a 10ª (1ª = Ciudad de Córdoba)
+- Regla operativa: no asumir equivalencia automática entre CPCCN y CPCC Córdoba. No
+  equiparar jurisprudencia CNAC con TSJ Córdoba. Ante duda de competencia, alertar.
 
 ### Fueros adicionales
 
@@ -126,14 +130,14 @@ Perfil específico: ver `argentina/laboral-CLAUDE.md`
 ### Procesal
 
 - CPCCN: fueros nacionales y federales
-- CPCCBA: PBA
+- CPCC Córdoba (Ley 8465): fuero provincial de Córdoba
 - Regla operativa: nunca asumir que un plazo o instituto del CPCCN aplica
-  automáticamente en PBA.
+  automáticamente en Córdoba. Verificar siempre el artículo equivalente en la Ley 8465.
 
 ### Societario
 
 - LGS (Ley 19.550) [VERIFICAR VIGENCIA] y modificatorias
-- Normativa IGJ (CABA) / DPPJ (PBA) según jurisdicción de inscripción
+- Normativa IGJ (CABA) / IGPJ Córdoba (Inspección General de Personas Jurídicas de Córdoba) según jurisdicción de inscripción
 - CNV para sociedades que hacen oferta pública
 
 Perfil específico: ver `argentina/societario-CLAUDE.md`
@@ -149,7 +153,7 @@ Perfil específico: ver `argentina/societario-CLAUDE.md`
 - Ley 25.164: Marco de Regulación del Empleo Público Nacional
 
 **Administrativo CABA:** Ley 189 (CCAyT) y Ley 2145 (amparo)
-**Administrativo PBA:** Decreto-Ley 7647/70 y Ley 12.008
+**Administrativo Córdoba:** Ley 5350 t.o. Ley 6658 (procedimiento administrativo) y Ley 7182 (procedimiento contencioso administrativo)
 
 Perfil específico: ver `argentina/administrativo-CLAUDE.md`
 
@@ -269,7 +273,8 @@ Esta excepción no aplica a jurisprudencia.
 - InfoLEG (infoleg.gob.ar): texto oficial de normas nacionales
 - SAIJ (saij.gob.ar): jurisprudencia, doctrina, legislación provincial
 - PJN (pjn.gov.ar): acordadas y jurisprudencia federal
-- SCBA (scba.gov.ar): jurisprudencia PBA
+- TSJ Córdoba (jurisprudencia.justiciacordoba.gob.ar): jurisprudencia provincial de Córdoba
+- Poder Judicial de Córdoba (justiciacordoba.gob.ar): sentencias de cámaras y juzgados
 - AAIP (argentina.gob.ar/aaip): disposiciones de datos personales
 
 En caso de discrepancia entre cualquier conector MCP y una fuente primaria oficial,
@@ -557,5 +562,5 @@ argentina/
 
 *Última actualización: mayo 2026*
 *Normativa base: CCCN (Ley 26.994), LCT (Ley 20.744), LDC (Ley 24.240),
-LGS (Ley 19.550), Ley 25.326, CPCCN, CPCCBA*
-*Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
+LGS (Ley 19.550), Ley 25.326, CPCCN, CPCC Córdoba (Ley 8465)*
+*Fork Córdoba — basado en el trabajo de Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*

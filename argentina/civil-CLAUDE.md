@@ -131,7 +131,7 @@ de la LDC. Verificar si fue modificado antes de asesorar sobre el régimen vigen
 
 - **CSJN (csjn.gov.ar):** fallos en materia de daños, contratos y responsabilidad civil
 - **CNAC - Cámara Nacional de Apelaciones en lo Civil:** jurisprudencia civil nacional - acceso vía PJN (pjn.gov.ar) - verificar sala
-- **TSJ Córdoba - Sala Civil y Comercial (tsj.jus.cba.gov.ar):** jurisprudencia civil provincial de Córdoba
+- **TSJ Córdoba - Sala Civil y Comercial (jurisprudencia.justiciacordoba.gob.ar):** jurisprudencia civil provincial de Córdoba
 - **Poder Judicial de Córdoba (justiciacordoba.gob.ar):** sentencias de Cámaras de Apelaciones Civil y Comercial de Córdoba
 - **Infoleg (infoleg.gob.ar):** texto oficial de normas
 

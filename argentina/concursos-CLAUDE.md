@@ -103,7 +103,7 @@ salvataje y acuerdos preventivos extrajudiciales.
 
 - **CNACOM - Cámara Nacional de Apelaciones en lo Comercial:** jurisprudencia comercial concursal - acceso vía PJN (pjn.gov.ar) - verificar sala
 - **CSJN (csjn.gov.ar):** fallos en materia concursal
-- **TSJ Córdoba - Sala Civil y Comercial (tsj.jus.cba.gov.ar):** jurisprudencia concursal provincial de Córdoba
+- **TSJ Córdoba - Sala Civil y Comercial (jurisprudencia.justiciacordoba.gob.ar):** jurisprudencia concursal provincial de Córdoba
 - **Infoleg (infoleg.gob.ar):** texto oficial de normas
 
 ---

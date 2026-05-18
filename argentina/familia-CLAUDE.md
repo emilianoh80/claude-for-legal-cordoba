@@ -120,7 +120,7 @@ fallos sobre alimentos. Se actualiza por resolución del Consejo del Salario.
 
 - **CSJN (csjn.gov.ar):** fallos en materia de familia, niñez y adolescencia
 - **CNAC (Cámara Nacional de Apelaciones en lo Civil):** jurisprudencia civil - verificar salas con competencia en familia
-- **TSJ Córdoba - Sala Civil y Comercial (tsj.jus.cba.gov.ar):** jurisprudencia familiar provincial de Córdoba
+- **TSJ Córdoba - Sala Civil y Comercial (jurisprudencia.justiciacordoba.gob.ar):** jurisprudencia familiar provincial de Córdoba
 - **Poder Judicial Córdoba (justiciacordoba.gob.ar):** sentencias de Juzgados de Familia y Cámaras de Córdoba
 - **INADI:** resoluciones en materia de identidad de género y familia
 

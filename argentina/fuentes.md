@@ -38,7 +38,7 @@ conector no estaba disponible.
 | 2 - Psflores (PJN/CABA) | Jurisprudencia fueros nacionales | Acceder a pjn.gov.ar o buenosaires.gob.ar/jusbaires y pegar el fallo en la sesión |
 | 3 - guidobonomini | Análisis semántico / glosario | Operar con el glosario del CLAUDE.md argentino; la calidad terminológica puede bajar |
 | 4 - Tesauro SAIJ | Vocabulario jurídico | Usar terminología estándar del CCCN y LCT directamente |
-| TSJ Córdoba | Jurisprudencia Córdoba | Acceder a tsj.jus.cba.gov.ar y pegar el fallo en la sesión |
+| TSJ Córdoba | Jurisprudencia Córdoba | Acceder a jurisprudencia.justiciacordoba.gob.ar y pegar el fallo en la sesión |
 
 Cuando se usa el fallback manual (pegar texto en sesión), indicar siempre
 al inicio del texto pegado: fuente, fecha de consulta, y URL de origen.
@@ -168,7 +168,7 @@ jurisprudencia relevante en materia laboral, civil, contencioso administrativa
 y penal provincial.
 
 **Alternativa directa:**
-Acceder directamente a https://tsj.jus.cba.gov.ar (sala correspondiente) y pegar el texto
+Acceder directamente a https://jurisprudencia.justiciacordoba.gob.ar (sala correspondiente) y pegar el texto
 del fallo en la sesión para que el sistema lo procese. Indicar siempre:
 sala, fecha, carátula y número de expediente.
 
@@ -189,7 +189,7 @@ y las Cámaras cordobesas sería de alto impacto para práctica en esta provinci
 | Verificar texto de una norma provincial Córdoba | Sin conector MCP | SAIJ / portal Legislatura Córdoba directo |
 | Buscar jurisprudencia CSJN | 5 (FalloBot, plan Pro) | sj.csjn.gov.ar directo |
 | Buscar jurisprudencia CABA / fueros nacionales | 2 (Psflores) | PJN directo |
-| Buscar jurisprudencia TSJ Córdoba y cámaras | Sin conector MCP | tsj.jus.cba.gov.ar / justiciacordoba.gob.ar |
+| Buscar jurisprudencia TSJ Córdoba y cámaras | Sin conector MCP | jurisprudencia.justiciacordoba.gob.ar / justiciacordoba.gob.ar |
 | Buscar jurisprudencia multifuente simultánea | 5 (FalloBot, plan Pro) | Fuentes por separado |
 | Análisis semántico / terminología | 3 (guidobonomini) | - |
 | Mejorar búsquedas jurisprudenciales | 4 (Tesauro SAIJ) | SAIJ directo |
@@ -236,7 +236,7 @@ hay discrepancia con cualquier conector.
 | SAIJ | saij.gob.ar | Jurisprudencia, doctrina, legislación provincial (incluye normas de Córdoba) |
 | PJN | pjn.gov.ar | Acordadas y jurisprudencia federal |
 | CNACAF | cnacaf.gov.ar | Jurisprudencia contencioso administrativo federal y alzada tributaria |
-| TSJ Córdoba | tsj.jus.cba.gov.ar | Jurisprudencia TSJ Córdoba - fuente primaria provincial |
+| TSJ Córdoba | jurisprudencia.justiciacordoba.gob.ar | Jurisprudencia TSJ Córdoba - fuente primaria provincial |
 | Poder Judicial Córdoba | justiciacordoba.gob.ar | Jurisprudencia cámaras y juzgados de Córdoba |
 | Poder Judicial CABA | buenosaires.gob.ar/jusbaires | Jurisprudencia fuero local CABA |
 | PTN | ptn.gov.ar | Dictámenes de la Procuración del Tesoro de la Nación - responsabilidad del Estado y empleo público |

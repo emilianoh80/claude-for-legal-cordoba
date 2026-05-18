@@ -139,7 +139,7 @@ antes de asesorar sobre esta figura.
 - **CSJN (csjn.gov.ar):** fallos, acordadas, estadísticas
 - **PJN (pjn.gov.ar):** jurisprudencia federal y nacional
 - **MPF (mpf.gov.ar):** resoluciones de política criminal
-- **TSJ Córdoba - Sala Penal (tsj.jus.cba.gov.ar):** jurisprudencia penal provincial de Córdoba
+- **TSJ Córdoba - Sala Penal (jurisprudencia.justiciacordoba.gob.ar):** jurisprudencia penal provincial de Córdoba
 - **TSJ CABA (tsjcaba.gov.ar):** jurisprudencia CABA
 - **Infoleg (infoleg.gob.ar):** texto oficial de normas
 

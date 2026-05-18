@@ -144,7 +144,7 @@ El sistema identifica el fuero al inicio de cada consulta. No transpola instituc
 
 - **CNAT - Cámara Nacional de Apelaciones del Trabajo:** jurisprudencia del fuero nacional del trabajo - acceso oficial vía Sistema de Consulta de Jurisprudencia del PJN: https://sj.pjn.gov.ar/consulta/#/pages/inicio - también disponible en bases privadas (elDial, Vlex) - verificar sala
 - **CSJN (csjn.gov.ar):** fallos en materia laboral
-- **TSJ Córdoba - Sala Laboral (tsj.jus.cba.gov.ar):** jurisprudencia laboral provincial de Córdoba - fuente de referencia para el fuero laboral cordobés
+- **TSJ Córdoba - Sala Laboral (jurisprudencia.justiciacordoba.gob.ar):** jurisprudencia laboral provincial de Córdoba - fuente de referencia para el fuero laboral cordobés
 - **Poder Judicial de Córdoba (justiciacordoba.gob.ar):** sentencias de Cámaras del Trabajo de Córdoba
 - **Ministerio de Trabajo de Córdoba:** normativa provincial laboral y servicio de conciliación
 - **Ministerio de Trabajo (trabajo.gob.ar):** normativa nacional, CCT publicados, REPSAL
