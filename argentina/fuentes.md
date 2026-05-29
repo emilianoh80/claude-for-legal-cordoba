@@ -38,7 +38,9 @@ conector no estaba disponible.
 | 2 - Psflores (PJN/CABA) | Jurisprudencia fueros nacionales | Acceder a pjn.gov.ar o buenosaires.gob.ar/jusbaires y pegar el fallo en la sesión |
 | 3 - guidobonomini | Análisis semántico / glosario | Operar con el glosario del CLAUDE.md argentino; la calidad terminológica puede bajar |
 | 4 - Tesauro SAIJ | Vocabulario jurídico | Usar terminología estándar del CCCN y LCT directamente |
+| 5 - saij-mcp | Jurisprudencia + legislación + doctrina + dictámenes (SAIJ) | saij.gob.ar acceso directo |
 | 6 - jurisprudencia-cordoba | Jurisprudencia Córdoba (Koha + PDF) | Acceder a jurisprudencia.justiciacordoba.gob.ar y pegar el fallo en la sesión |
+| 7 - csjn-mcp | Fallos CSJN | sj.csjn.gov.ar acceso directo |
 
 Cuando se usa el fallback manual (pegar texto en sesión), indicar siempre
 al inicio del texto pegado: fuente, fecha de consulta, y URL de origen.
@@ -287,6 +289,9 @@ hay discrepancia con cualquier conector.
 | COMARB | comarb.gov.ar | Convenio Multilateral - Ingresos Brutos |
 | DGR / ARCO Córdoba | rentas.cba.gov.ar | Normativa tributaria provincial Córdoba - verificar URL vigente |
 | TFN | tfnacional.gov.ar | Jurisprudencia tributaria |
+| Cuerpo Médico Forense CSJN | csjn.gov.ar/cmfcs | Informes periciales y estándares forenses federales |
+| Protocolo de Estambul ONU | ohchr.org | Estándar internacional para investigación de tortura y peritación de lesiones |
+| ANSES normativa previsional | anses.gob.ar | Prestaciones, baremos y normativa de seguridad social |
 
 ---
 

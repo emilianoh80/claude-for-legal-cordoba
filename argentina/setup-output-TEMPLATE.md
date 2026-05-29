@@ -230,7 +230,8 @@ con práctica laboral y civil en CABA:
 ## Identidad y jurisdicción
 
 **Firma:** Estudio Ejemplo Abogados
-**Matrícula:** CPACF T° 100 F° 200
+**Matrícula provincial:** M.P. 1-XXXXX
+**Matrícula federal:** CPACF T° XX F° XX (solo para escritos ante fueros federales)
 **Jurisdicción principal:** CABA
 **Fueros habituales:** Fuero nacional del trabajo (CNAT) / Fuero nacional civil (CNAC)
 **Áreas de práctica:**
@@ -296,6 +297,21 @@ Perfil específico: ver `argentina/administrativo-CLAUDE.md`.
 ```
 
 Si el abogado no declaró práctica administrativa, esta sección se omite por completo.
+
+Si el abogado declaró medicina legal o pericia médica entre sus áreas (P5-ter, P6-ter, P7-ter), el CLAUDE.md generado incluye adicionalmente:
+
+```markdown
+## Configuración medicina legal y pericia médica forense
+
+**Organismo o rol pericial:** [valor declarado en P5-ter]
+**Fueros de actuación:** [valor declarado en P6-ter]
+**Especialidad principal:** [valor declarado en P6-ter]
+**Organismo requirente habitual:** [valor declarado en P7-ter]
+
+Perfil específico: ver `argentina/especialidades/medicina-legal-CLAUDE.md`.
+```
+
+Si el abogado no declaró práctica pericial, esta sección se omite por completo.
 
 ---
 

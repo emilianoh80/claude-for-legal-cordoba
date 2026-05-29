@@ -46,9 +46,13 @@ Impacto: aparece en el encabezado de escritos y en el cierre de informes.
 
 **P2. Matrícula y colegio**
 
-Ejemplo: `CAC T° XX F° XX` (Colegio de Abogados de Córdoba) / `CPACF T° XX F° XX` (si actuás en fueros nacionales)
+Ejemplo:
+- Matrícula provincial Córdoba: `M.P. 1-34377`
+- Matrícula federal CPACF: `CPACF T° XX F° XX` — indicarla si tenés habilitación federal, aclarando que solo se usa en escritos del fuero federal
 
-Impacto: el sistema incluye la matrícula en escritos donde corresponde. Si no querés que
+Si tenés ambas, indicar las dos. El sistema usa la provincial por defecto en escritos de fueros cordobeses y la federal solo en escritos del fuero federal.
+
+Impacto: el sistema incluye la matrícula correcta según el fuero del escrito. Si no querés que
 aparezca en los borradores, indicá "no incluir en escritos".
 
 ---
@@ -165,6 +169,48 @@ Opciones: actor (particular contra el Estado) / demandado (Estado o ente en defe
 Ejemplo: `Predominantemente actor, 80% particulares contra organismos nacionales`
 
 Impacto: el sistema activa el módulo de análisis estratégico correspondiente por defecto. En causas como actor: prioriza agotamiento de la vía, plazos de caducidad y requisitos de admisibilidad. En causas como demandado: prioriza análisis de vicios del acto, defensa de la regularidad del procedimiento y legitimidad del accionar estatal.
+
+---
+
+### Bloque 2-ter - Configuración medicina legal y pericia médica forense
+
+Responder solo si medicina legal o pericia médica figura entre las áreas de práctica.
+
+---
+
+**P5-ter. Organismo o rol pericial**
+
+Opciones: Cuerpo Médico Forense CSJN / Cuerpo Médico Forense del Poder Judicial de Córdoba / Perito de parte / Consultor técnico / Combinación.
+
+Impacto: el sistema adapta la estructura del informe y el punto de vista del análisis según el rol (perito oficial vs. perito de parte vs. consultor técnico).
+
+---
+
+**P6-ter. Fueros y especialidad principal**
+
+Indicar los fueros en que se actúa habitualmente y la especialidad médica principal.
+
+Ejemplo:
+```
+Fueros: penal (CPP Córdoba Ley 8123) y civil (CPCC Córdoba Ley 8465)
+Especialidad: medicina legal general / traumatología forense / psiquiatría forense
+```
+
+Impacto: el sistema prioriza la normativa procesal y los criterios médico-legales correspondientes al fuero y la especialidad declarados. Sin este dato, pregunta el fuero en cada consulta pericial.
+
+---
+
+**P7-ter. Organismo requirente habitual**
+
+Indicar el tribunal u organismo que requiere las pericias con mayor frecuencia.
+
+Ejemplo:
+```
+Cámara del Crimen de Córdoba 1ª Nominación
+Juzgado Civil y Comercial de X Nominación, Circunscripción 1ª
+```
+
+Impacto: el sistema aplica el baremo y los criterios de ese fuero por defecto y omite preguntar en cada sesión cuál es el tribunal requirente.
 
 ---
 
