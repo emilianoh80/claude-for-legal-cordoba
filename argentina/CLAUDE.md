@@ -54,7 +54,8 @@ sentido norteamericano) salvo que el asunto involucre derecho extranjero aplicab
 y el abogado lo indique expresamente.
 
 **Firma:** [COMPLETAR vía setup-interview.md o editar directamente]
-**Matrícula:** [COMPLETAR]
+**Matrícula provincial:** [COMPLETAR — formato: M.P. 1-XXXXX]
+**Matrícula federal:** [COMPLETAR si tenés CPACF — formato: CPACF T° XX F° XX — solo para escritos ante fueros federales]
 **Jurisdicción principal:** [COMPLETAR]
 **Fueros habituales:** [COMPLETAR]
 **Áreas de práctica:** [COMPLETAR - en orden de volumen de trabajo]
@@ -502,15 +503,16 @@ Al inicio de cada consulta, el sistema identifica la rama del derecho y el tipo 
 
 | Perfil | Activar cuando la consulta involucra... |
 |---|---|
-| `laboral-CLAUDE.md` + `ejemplos-laboral.md` | contrato de trabajo, despido, liquidación, accidente laboral, sindicato, CCT |
+| `laboral-CLAUDE.md` + `laboral/telegrama/telegramas-SKILL.md` | contrato de trabajo, despido, liquidación, accidente laboral, sindicato, CCT, telegramas laborales, cartas documento |
 | `civil-CLAUDE.md` + `ejemplos-civil.md` | daños y perjuicios, responsabilidad civil, contratos civiles, prescripción civil |
 | `contratos-CLAUDE.md` + `red-flags-contratos.md` | revisión o redacción de contratos (NDA, servicios, compraventa, locación, SaaS, mutuo, agencia) |
 | `societario-CLAUDE.md` + `ejemplos-societario.md` | constitución de sociedades, M&A, due diligence, pactos de accionistas |
-| `administrativo-CLAUDE.md` | recurso administrativo, responsabilidad del Estado, contratación pública, empleo público |
-| `tributario-CLAUDE.md` | AFIP, TFN, IVA, Ganancias, ingresos brutos, régimen penal tributario |
+| `administrativo-CLAUDE.md` + `administrativo-CORDOBA-CLAUDE.md` | recurso administrativo, responsabilidad del Estado, contratación pública, empleo público (cargar ambos para práctica cordobesa) |
+| `tributario-CLAUDE.md` | ARCA/AFIP, TFN, IVA, Ganancias, ingresos brutos, DGR Córdoba, régimen penal tributario |
 | `penal-CLAUDE.md` | imputado, procesado, defensa penal, querella, medidas cautelares penales |
 | `familia-CLAUDE.md` | divorcio, alimentos, cuidado personal, filiación, adopción, violencia familiar |
 | `concursos-CLAUDE.md` | concurso preventivo, quiebra, verificación de créditos, APE, cramdown |
+| `especialidades/medicina-legal-CLAUDE.md` | peritaje médico-legal, informes periciales, lesiones, imputabilidad, incapacidad, praxis médica |
 
 ---
 
@@ -539,20 +541,28 @@ argentina/
   CLAUDE.md                         # Este archivo - perfil general
   CHANGELOG.md                      # Historial de cambios normativos y del sistema
   marcadores-GLOSARIO.md            # Glosario canónico de marcadores (fuente de verdad)
+  plazos-SKILL.md                   # Skill de cómputo de plazos (feriados, Decreto 614/2025)
   setup-interview.md                # Entrevista de configuración inicial
   setup-output-TEMPLATE.md          # Template de output de la entrevista
   diagnostico-SKILL.md              # Skill de diagnóstico previo (todos los fueros)
   red-flags-contratos.md            # Lista de alertas para revisión de contratos (activ. automática)
-  administrativo-CLAUDE.md          # Perfil derecho administrativo
+  administrativo-CLAUDE.md          # Perfil derecho administrativo federal (general)
+  administrativo-CORDOBA-CLAUDE.md  # Perfil derecho administrativo Córdoba (complementa al federal)
   civil-CLAUDE.md                   # Perfil derecho civil (CCCN)
   concursos-CLAUDE.md               # Perfil concursos y quiebras (LCQ)
   familia-CLAUDE.md                 # Perfil derecho de familia
   laboral-CLAUDE.md                 # Perfil derecho del trabajo (LCT)
+  laboral/telegrama/                # Skill de telegramas laborales y modelos
+    telegramas-SKILL.md             # Instrucciones operativas del skill
+    tipos-de-telegrama.md           # Clasificación por grupo (1-10)
+    reglas-normativas.md            # 12 reglas de validación post-reforma
+    modelos/                        # Bloques de modelos de telegrama (01-08)
   penal-CLAUDE.md                   # Perfil derecho penal
   societario-CLAUDE.md              # Perfil derecho societario (LGS)
   tributario-CLAUDE.md              # Perfil derecho tributario
+  especialidades/
+    medicina-legal-CLAUDE.md        # Perfil medicina legal y pericia médica forense
   ejemplos-civil.md                 # Casos de daños y responsabilidad civil
-  ejemplos-laboral.md               # Casos de liquidación con checklist de rubros
   ejemplos-societario.md            # Due diligence y pactos de accionistas
   fuentes.md                        # Conectores MCP y fuentes primarias
 ```

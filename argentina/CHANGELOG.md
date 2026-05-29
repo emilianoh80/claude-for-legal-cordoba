@@ -28,6 +28,31 @@ No esperar a la revisión periódica.
 
 ## 2026
 
+### Mayo 2026 - Rebase del upstream + nuevos contenidos (Fork Córdoba)
+
+**Archivos nuevos:**
+- `argentina/laboral/telegrama/telegramas-SKILL.md` + `tipos-de-telegrama.md` + `reglas-normativas.md` + `modelos/bloque-01 al 08` - skill completo de telegramas laborales del upstream; refleja derecho laboral federal (LCT + Ley 27.742 + Ley 27.802); sin ajuste provincial necesario (los telegramas son instrumento federal)
+- `argentina/especialidades/medicina-legal-CLAUDE.md` - perfil de medicina legal y pericia médica forense; cubre fueros CPPN/CPPF, civil (CPCCN), seguridad social; adaptable a fueros provinciales (Córdoba: verificar estado implementación CPPF)
+- `argentina/plazos-SKILL.md` - cómputo de plazos; incorpora Decreto 614/2025 (feriados trasladables 2026: Güemes al 15/6, Soberanía al 23/11)
+- `argentina/administrativo-CORDOBA-CLAUDE.md` - adoptada estructura dos archivos del upstream: administrativo-CLAUDE.md = federal general; administrativo-CORDOBA-CLAUDE.md = extensión específica Córdoba
+- `argentina/legal.local.md.template` + `argentina/legal.local.template.md` - templates de personalización
+
+**Archivos modificados:**
+- `argentina/laboral-CLAUDE.md` - rebasado sobre upstream (Ley 27.742 + Ley 27.802 + ARCA + tres regímenes art. 245 + período de prueba 8 meses + certificados 45 días hábiles); se re-aplicaron sustituciones Córdoba: Ley 7987, Cámaras del Trabajo, TSJ Sala Laboral, SECLO no aplica, fuentes TSJ Córdoba
+- `argentina/administrativo-CLAUDE.md` - reemplazado por versión upstream (federal general); lo Córdoba-específico pasó a `administrativo-CORDOBA-CLAUDE.md`
+- `argentina/CLAUDE.md` - tabla de routing actualizada: telegramas laborales, medicina-legal; estructura del repo actualizada; AFIP → ARCA en sección laboral
+- `argentina/setup-interview.md` - agregado Bloque 2-ter (P5-ter, P6-ter, P7-ter): configuración medicina legal con adaptación de ejemplos a fueros cordobeses
+- `argentina/setup-output-TEMPLATE.md` - agregada sección condicional de medicina legal
+- `argentina/fuentes.md` - agregados conectores 5 (saij-mcp) y 7 (csjn-mcp) nacionales; agregadas tres entradas en fuentes primarias oficiales: Cuerpo Médico Forense CSJN, Protocolo de Estambul ONU, ANSES normativa previsional
+
+**Normas incorporadas en el rebase:**
+- Ley 27.742 (Ley Bases, BO 8/7/2024): arts. 99-100 (derogación agravantes Ley 24.013 y Ley 25.323 desde 9/7/2024)
+- Ley 27.802 (Modernización Laboral, BO 6/3/2026): art. 51 (nuevo art. 245 LCT - tercer régimen), art. 25 (art. 80 LCT - 45 días hábiles), art. 40 (renuncia digital), art. 20 (ARCA)
+- DNU 70/2023 (BO 30/12/2023): reforma art. 245 LCT en primer tramo
+- Decreto 614/2025 (feriados trasladables 2026)
+
+**Estado judicial relevante:** reforma laboral vigente operacionalmente desde Acuerdo Pleno CNAT abril 2026 (levantamiento cautelar CGT).
+
 ### Mayo 2026 - Sincronización README con fuentes.md (Etapa 9)
 
 **Archivos modificados:**
